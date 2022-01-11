@@ -22,14 +22,12 @@ public class GameManager : MonoBehaviour
     public void SuspectButton()
     {
         gameStart = true;
-        playerSelection.Suspect();
         playerSelection.SuspectSpawn();
     }
 
     public void CivilianButton()
     {
         gameStart = true;
-        playerSelection.Civilian();
         playerSelection.CivilianSpawn();
     }
 }

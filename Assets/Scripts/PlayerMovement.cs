@@ -4,13 +4,14 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public Transform spawnPoint;
     int movementSpeed = 1;
-    bool trafficStop = false;
+    public bool trafficStop = true;
 
     // Start is called before the first frame update
     void Start()
     {
-        
+        transform.position = spawnPoint.position;
     }
 
     // Update is called once per frame
@@ -28,7 +29,7 @@ public class PlayerMovement : MonoBehaviour
 
     public void Move()
     {
-        Vector3 newPos = new Vector3(transform.position.x, transform.position.y, transform.position.z + (Time.deltaTime * movementSpeed));
+        Vector3 newPos = new Vector3(transform.position.x, transform.position.y, transform.position.z - (Time.deltaTime * movementSpeed));
 
         transform.position = newPos;
     }
@@ -38,6 +39,11 @@ public class PlayerMovement : MonoBehaviour
         Vector3 newPos1 = new Vector3(transform.position.x, transform.position.y, transform.position.z);
 
         transform.position = newPos1;
+    }
+
+    public void Respawn()
+    {
+        transform.position = spawnPoint.position;
     }
 
     public void OnTriggerEnter(Collider other)

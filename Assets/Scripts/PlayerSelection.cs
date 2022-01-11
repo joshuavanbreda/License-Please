@@ -5,6 +5,7 @@ using UnityEngine;
 public class PlayerSelection : MonoBehaviour
 {
     public GameManager gameManager;
+    public PlayerMovement playerMovement;
 
     [Header("Lists")]
     public List<GameObject> gender;
@@ -110,6 +111,9 @@ public class PlayerSelection : MonoBehaviour
     int randomShirtCiv;
 
     int suspectCount;
+
+    int initialPlayerSelect;
+
 
 
     // Start is called before the first frame update
@@ -286,6 +290,8 @@ public class PlayerSelection : MonoBehaviour
     {
         //GameObject.Instantiate(suspectHairType, GameObject.FindWithTag("Suspect").transform.position, Quaternion.identity);
 
+        Suspect();
+
         mHair1.SetActive(false);
         mHair2.SetActive(false);
         mHair3.SetActive(false);
@@ -307,6 +313,8 @@ public class PlayerSelection : MonoBehaviour
 
     public void CivilianSpawn()
     {
+        Civilian();
+
         mHair1.SetActive(false);
         mHair2.SetActive(false);
         mHair3.SetActive(false);
@@ -324,5 +332,24 @@ public class PlayerSelection : MonoBehaviour
         civilianHairType.SetActive(true);
         civilianEye1.SetActive(true);
         civilianEye2.SetActive(true);
+    }
+
+    public void RandomCharacterSpawn()
+    {
+        initialPlayerSelect = Random.Range(1, 7);
+        Debug.Log(initialPlayerSelect);
+
+        if (initialPlayerSelect == 2)
+        {
+            SuspectSpawn();
+            playerMovement.transform.position = playerMovement.spawnPoint.position;
+            playerMovement.trafficStop = false;
+        }
+        if (initialPlayerSelect != 2)
+        {
+            CivilianSpawn();
+            playerMovement.transform.position = playerMovement.spawnPoint.position;
+            playerMovement.trafficStop = false;
+        }
     }
 }

@@ -1,0 +1,110 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &627001299194007044
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 627001299194007046}
+  - component: {fileID: 627001299194007047}
+  - component: {fileID: 627001299194007065}
+  m_Layer: 0
+  m_Name: Game Manager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &627001299194007046
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627001299194007044}
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_RootOrder: 0
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &627001299194007047
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627001299194007044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 6ce7905cc43bd9149b1fea0346dc3aa3, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  gameManager: {fileID: 627001299194007065}
+  playerMovement: {fileID: 0}
+  gender: []
+  mHairTypes: []
+  fHairTypes: []
+  skinColorVariant: []
+  hairColor: []
+  eyeColor: []
+  shirtColor: []
+  suspectItems: []
+  maleChar: {fileID: 0}
+  femaleChar: {fileID: 0}
+  mHair1: {fileID: 0}
+  mHair2: {fileID: 0}
+  mHair3: {fileID: 0}
+  mHair4: {fileID: 0}
+  fHair1: {fileID: 0}
+  fHair2: {fileID: 0}
+  fHair3: {fileID: 0}
+  fHair4: {fileID: 0}
+  skin1: {fileID: 2100000, guid: 05b5e65c7df2c614a83361d1924b2fe2, type: 2}
+  skin2: {fileID: 2100000, guid: 7d7141a05002d7a4ea0a7bfe5694d352, type: 2}
+  skin3: {fileID: 2100000, guid: a17de2e9a6c2f4c4baac542e77307af3, type: 2}
+  skin4: {fileID: 2100000, guid: 5c87f2e9e35eefd4290130a0dde72dc6, type: 2}
+  skin5: {fileID: 2100000, guid: 2705267ad7bc1d946b6b5f0fa5881687, type: 2}
+  hair1: {fileID: 2100000, guid: cc56d88fe9f3eb84484e2f3f2a826523, type: 2}
+  hair2: {fileID: 2100000, guid: 3f5e8c2cd0269ae4d875327a20bbd6bc, type: 2}
+  hair3: {fileID: 2100000, guid: 9a6a6d4482365cb42978ec69db66a8ff, type: 2}
+  hair4: {fileID: 2100000, guid: d6764ddba6365c945ab9d669e00902c4, type: 2}
+  hair5: {fileID: 2100000, guid: b96dfb3c81b707d4b87a1fbec9d89073, type: 2}
+  eye1: {fileID: 2100000, guid: 2d8f27b0fc03a7642ae23ebb957ef7e2, type: 2}
+  eye2: {fileID: 2100000, guid: 3414bfe089beb8949bedf494b0f42ab3, type: 2}
+  eye3: {fileID: 2100000, guid: ec15b4a293cf85243a3a555e7e2d10a7, type: 2}
+  shirt1: {fileID: 2100000, guid: f26a1e872d8b97641be38a406986f0f6, type: 2}
+  shirt2: {fileID: 2100000, guid: 9e360b9eea0e9e442aa44917ef94c560, type: 2}
+  shirt3: {fileID: 2100000, guid: e15d7495855659c42825236c9337f979, type: 2}
+  shirt4: {fileID: 2100000, guid: 8c324a7d806577f49bb12cafdbf43791, type: 2}
+  shirt5: {fileID: 2100000, guid: 5817c05fb0ef2604ba8bff80f7c2334e, type: 2}
+  shirt6: {fileID: 2100000, guid: f331c8d94341de64e89dc77a2a9d0952, type: 2}
+  shirt7: {fileID: 2100000, guid: 1135e8f25c415504e981ab576105e5b0, type: 2}
+  shirt8: {fileID: 2100000, guid: e0973e543641d00419255bb80bc0e66b, type: 2}
+  shirt9: {fileID: 2100000, guid: f568232404aa6bd409523e8ac23b96a9, type: 2}
+  shirt10: {fileID: 2100000, guid: 14f47e40eac1f074e922f07eeda8b10b, type: 2}
+  mainPlayer: {fileID: 0}
+  suspectShirtMale: {fileID: 0}
+  suspectEye1: {fileID: 0}
+  suspectEye2: {fileID: 0}
+  civilianShirtMale: {fileID: 0}
+  civilianEye1: {fileID: 0}
+  civilianEye2: {fileID: 0}
+--- !u!114 &627001299194007065
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 627001299194007044}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 687cf241f1d80c34eaeaef9da915aae2, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  playerSelection: {fileID: 627001299194007047}
+  gameStart: 0
