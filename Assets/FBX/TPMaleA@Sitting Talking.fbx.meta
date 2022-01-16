@@ -6,7 +6,12 @@ ModelImporter:
   - first:
       74: -203655887218126122
     second: Sitting Talking
-  externalObjects: {}
+  externalObjects:
+  - first:
+      type: UnityEngine:Material
+      assembly: UnityEngine.CoreModule
+      name: TPMaleA01
+    second: {fileID: 2100000, guid: f3ff3e267862b8641bfb5129f4a5caff, type: 2}
   materials:
     materialImportMode: 2
     materialName: 0

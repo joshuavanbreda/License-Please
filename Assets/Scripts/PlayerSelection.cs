@@ -38,14 +38,14 @@ public class PlayerSelection : MonoBehaviour
     public Material skin1;
     public Material skin2;
     public Material skin3;
-    public Material skin4;
-    public Material skin5;
+    //public Material skin4;
+    //public Material skin5;
 
     public Material hair1;
     public Material hair2;
     public Material hair3;
-    public Material hair4;
-    public Material hair5;
+    //public Material hair4;
+    //public Material hair5;
 
     public Material eye1;
     public Material eye2;
@@ -140,7 +140,7 @@ public class PlayerSelection : MonoBehaviour
         //randomGender = Random.Range(0, 2);
         randomGender = 0;
         randomAge = Random.Range(15, 100);
-        randomSkin = Random.Range(0, 5);
+        randomSkin = Random.Range(0, 3);
         randomHair = Random.Range(0, 5); //don't forget white hair ovveride for when over 60 (pos 5 in List)
         randomEye = Random.Range(0, 3);
         randomMaleHair = Random.Range(0, 4);
@@ -154,7 +154,7 @@ public class PlayerSelection : MonoBehaviour
         //randomGender = Random.Range(0, 2);
         randomGenderCiv = 0;
         randomAgeCiv = Random.Range(15, 100);
-        randomSkinCiv = Random.Range(0, 5);
+        randomSkinCiv = Random.Range(0, 3);
         randomHairCiv = Random.Range(0, 5); //don't forget white hair ovveride for when over 60 (pos 5 in List)
         randomEyeCiv = Random.Range(0, 3);
         randomMaleHairCiv = Random.Range(0, 4);
@@ -181,16 +181,19 @@ public class PlayerSelection : MonoBehaviour
         {
             suspectGender = maleChar;
             suspectHairType = mHairTypes[randomMaleHair];
-            suspectShirtMale.transform.GetComponent<Renderer>().material = suspectShirtMat;
+            suspectShirtMale.transform.GetComponent<Renderer>().materials[1] = suspectShirtMat;
+            suspectShirtMale.transform.GetComponent<Renderer>().materials[0] = suspectSkinMat;
         }
         else if (randomGender == 1)
         {
             suspectGender = femaleChar;
             suspectHairType = fHairTypes[randomFemaleHair];
-            suspectShirtFemale.transform.GetComponent<Renderer>().material = suspectShirtMat;
+            suspectShirtFemale.transform.GetComponent<Renderer>().materials[1] = suspectShirtMat;
+            suspectShirtFemale.transform.GetComponent<Renderer>().materials[0] = suspectSkinMat;
         }
         // Set suspect material colors
-        suspectGender.transform.GetComponent<Renderer>().material = suspectSkinMat;
+        //skin color
+        suspectGender.transform.GetComponent<Renderer>().materials[0] = suspectSkinMat;
 
         suspectHairType.transform.GetComponent<Renderer>().material = suspectHairMat;
 
@@ -217,14 +220,24 @@ public class PlayerSelection : MonoBehaviour
             civilianGender = maleChar;
             civilianHairType = mHairTypes[randomMaleHairCiv];
             civilianShirtMale.transform.GetComponent<Renderer>().material = civilianShirtMat;
+
+            Material[] skinMat = civilianShirtMale.transform.GetComponent<Renderer>().materials;
+            skinMat[0] = civilianSkinMat;
+            skinMat[1] = civilianShirtMat;
+            civilianShirtMale.transform.GetComponent<Renderer>().materials = skinMat;
         }
         else if (randomGenderCiv == 1)
         {
             civilianGender = femaleChar;
             civilianHairType = fHairTypes[randomFemaleHairCiv];
             civilianShirtFemale.transform.GetComponent<Renderer>().material = civilianShirtMat;
+
+            Material[] skinMat = civilianShirtFemale.transform.GetComponent<Renderer>().materials;
+            skinMat[0] = civilianSkinMat;
+            skinMat[1] = civilianShirtMat;
+            civilianShirtFemale.transform.GetComponent<Renderer>().materials = skinMat;
         }
-        // Set civilian colors
+        // Set civilian colors 
         civilianGender.transform.GetComponent<Renderer>().material = civilianSkinMat;
 
         civilianHairType.transform.GetComponent<Renderer>().material = civilianHairMat;
@@ -249,15 +262,15 @@ public class PlayerSelection : MonoBehaviour
         skinColorVariant.Add(skin1);
         skinColorVariant.Add(skin2);
         skinColorVariant.Add(skin3);
-        skinColorVariant.Add(skin4);
-        skinColorVariant.Add(skin5);
+        //skinColorVariant.Add(skin4);
+        //skinColorVariant.Add(skin5);
 
         //hairColor = new List<Material>(Resources.LoadAll<Material>("CharHairColors"));
         hairColor.Add(hair1);
         hairColor.Add(hair2);
         hairColor.Add(hair3);
-        hairColor.Add(hair4);
-        hairColor.Add(hair5);
+        //hairColor.Add(hair4);
+        //hairColor.Add(hair5);
 
         //eyeColor = new List<Material>(Resources.LoadAll<Material>("CharEyeColors"));
         eyeColor.Add(eye1);
