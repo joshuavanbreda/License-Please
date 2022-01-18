@@ -8,7 +8,7 @@ public class XRayCharacter : MonoBehaviour
     MeshRenderer meshRenderer;
     Material[] baseMaterials;
     int baseLayer;
-    bool xRayOn;
+    public bool xRayOn;
     public Material xRayMaterial;
     List<Material> xRayMaterials;
     public UnityEvent onXRay;

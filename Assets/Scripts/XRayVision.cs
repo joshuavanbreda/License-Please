@@ -7,7 +7,7 @@ public class XRayVision : MonoBehaviour
 {
     public UnityEvent onXRay;
     public UnityEvent offXRay;
-    bool xRayOn;
+    public bool xRayOn;
     // Start is called before the first frame update
     void Start()
     {
@@ -20,14 +20,14 @@ public class XRayVision : MonoBehaviour
         if (Input.GetKeyDown(KeyCode.X))
         {
             xRayOn = !xRayOn;
-            if (xRayOn != true)
-            {
-                offXRay.Invoke();
-            }
-            else
-            {
-                onXRay.Invoke();
-            }
+        }
+        if (xRayOn != true)
+        {
+            offXRay.Invoke();
+        }
+        else
+        {
+            onXRay.Invoke();
         }
     }
 }

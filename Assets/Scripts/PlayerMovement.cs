@@ -4,6 +4,8 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public GameManager gameManager;
+
     public Transform spawnPoint;
     int movementSpeed = 1;
     public bool trafficStop = true;
@@ -17,11 +19,11 @@ public class PlayerMovement : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (trafficStop == false)
+        if (trafficStop == false && gameManager.gameStart == true)
         {
             Move();
         }
-        else if (trafficStop == true)
+        else if (trafficStop == true && gameManager.gameStart == true)
         {
             StopMove();
         }
@@ -41,16 +43,17 @@ public class PlayerMovement : MonoBehaviour
         transform.position = newPos1;
     }
 
-    public void Respawn()
-    {
-        transform.position = spawnPoint.position;
-    }
+    //public void Respawn()
+    //{
+    //    transform.position = spawnPoint.position;
+    //}
 
     public void OnTriggerEnter(Collider other)
     {
         if (other.tag == "TrafficStop")
         {
             trafficStop = true;
+            Debug.Log("yes?");
         }
     }
 }

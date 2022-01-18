@@ -141,7 +141,7 @@ public class PlayerSelection : MonoBehaviour
         randomGender = 0;
         randomAge = Random.Range(15, 100);
         randomSkin = Random.Range(0, 3);
-        randomHair = Random.Range(0, 5); //don't forget white hair ovveride for when over 60 (pos 5 in List)
+        randomHair = Random.Range(0, 3); //don't forget white hair ovveride for when over 60 (pos 5 in List)
         randomEye = Random.Range(0, 3);
         randomMaleHair = Random.Range(0, 4);
         randomFemaleHair = Random.Range(0, 4);
@@ -155,7 +155,7 @@ public class PlayerSelection : MonoBehaviour
         randomGenderCiv = 0;
         randomAgeCiv = Random.Range(15, 100);
         randomSkinCiv = Random.Range(0, 3);
-        randomHairCiv = Random.Range(0, 5); //don't forget white hair ovveride for when over 60 (pos 5 in List)
+        randomHairCiv = Random.Range(0, 3); //don't forget white hair ovveride for when over 60 (pos 5 in List)
         randomEyeCiv = Random.Range(0, 3);
         randomMaleHairCiv = Random.Range(0, 4);
         randomFemaleHairCiv = Random.Range(0, 4);
@@ -183,6 +183,11 @@ public class PlayerSelection : MonoBehaviour
             suspectHairType = mHairTypes[randomMaleHair];
             suspectShirtMale.transform.GetComponent<Renderer>().materials[1] = suspectShirtMat;
             suspectShirtMale.transform.GetComponent<Renderer>().materials[0] = suspectSkinMat;
+
+            var skinMat = suspectShirtMale.transform.GetComponent<Renderer>().materials;
+            skinMat[0] = suspectSkinMat;
+            skinMat[1] = suspectShirtMat;
+            suspectShirtMale.transform.GetComponent<Renderer>().materials = skinMat;
         }
         else if (randomGender == 1)
         {
@@ -190,10 +195,15 @@ public class PlayerSelection : MonoBehaviour
             suspectHairType = fHairTypes[randomFemaleHair];
             suspectShirtFemale.transform.GetComponent<Renderer>().materials[1] = suspectShirtMat;
             suspectShirtFemale.transform.GetComponent<Renderer>().materials[0] = suspectSkinMat;
+
+            var skinMat = suspectShirtMale.transform.GetComponent<Renderer>().materials;
+            skinMat[0] = suspectSkinMat;
+            skinMat[1] = suspectShirtMat;
+            suspectShirtMale.transform.GetComponent<Renderer>().materials = skinMat;
         }
         // Set suspect material colors
         //skin color
-        suspectGender.transform.GetComponent<Renderer>().materials[0] = suspectSkinMat;
+        suspectGender.transform.GetComponent<Renderer>().material = suspectSkinMat;
 
         suspectHairType.transform.GetComponent<Renderer>().material = suspectHairMat;
 
@@ -210,7 +220,7 @@ public class PlayerSelection : MonoBehaviour
 
         //civilian material base selection
         civilianSkinMat = skinColorVariant[randomSkinCiv];
-        civilianHairMat = hairColor[randomHairCiv];
+        civilianHairMat = hairColor[randomHairCiv];                                   /////////////////////
         civilianEyeMat = eyeColor[randomEyeCiv];
         civilianShirtMat = shirtColor[randomShirtCiv];
 
@@ -221,7 +231,7 @@ public class PlayerSelection : MonoBehaviour
             civilianHairType = mHairTypes[randomMaleHairCiv];
             civilianShirtMale.transform.GetComponent<Renderer>().material = civilianShirtMat;
 
-            Material[] skinMat = civilianShirtMale.transform.GetComponent<Renderer>().materials;
+            var skinMat = civilianShirtMale.transform.GetComponent<Renderer>().materials;
             skinMat[0] = civilianSkinMat;
             skinMat[1] = civilianShirtMat;
             civilianShirtMale.transform.GetComponent<Renderer>().materials = skinMat;
@@ -232,7 +242,7 @@ public class PlayerSelection : MonoBehaviour
             civilianHairType = fHairTypes[randomFemaleHairCiv];
             civilianShirtFemale.transform.GetComponent<Renderer>().material = civilianShirtMat;
 
-            Material[] skinMat = civilianShirtFemale.transform.GetComponent<Renderer>().materials;
+            var skinMat = civilianShirtFemale.transform.GetComponent<Renderer>().materials;
             skinMat[0] = civilianSkinMat;
             skinMat[1] = civilianShirtMat;
             civilianShirtFemale.transform.GetComponent<Renderer>().materials = skinMat;

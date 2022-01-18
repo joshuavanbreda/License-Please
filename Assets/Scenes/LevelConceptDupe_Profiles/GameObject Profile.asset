@@ -93,7 +93,7 @@ MonoBehaviour:
     value: 0
   colorFilter:
     overrideState: 1
-    value: {r: 0.08877712, g: 0.28520793, b: 0.990566, a: 1}
+    value: {r: 0.033018887, g: 0.17174226, b: 1, a: 1}
   hueShift:
     overrideState: 0
     value: 0
@@ -105,7 +105,7 @@ MonoBehaviour:
     value: 0
   postExposure:
     overrideState: 1
-    value: 0.8
+    value: 2.5
   contrast:
     overrideState: 0
     value: 0
@@ -1360,3 +1360,32 @@ MonoBehaviour:
   settings:
   - {fileID: -7653243866866418811}
   - {fileID: -6236113834391527530}
+  - {fileID: 1999105048352402814}
+--- !u!114 &1999105048352402814
+MonoBehaviour:
+  m_ObjectHideFlags: 3
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 0}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: d65e486e4de6e5448a8fbb43dc8756a0, type: 3}
+  m_Name: Grain
+  m_EditorClassIdentifier: 
+  active: 1
+  enabled:
+    overrideState: 1
+    value: 1
+  colored:
+    overrideState: 0
+    value: 1
+  intensity:
+    overrideState: 1
+    value: 0.5
+  size:
+    overrideState: 0
+    value: 1
+  lumContrib:
+    overrideState: 0
+    value: 0.8
