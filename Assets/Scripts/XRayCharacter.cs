@@ -35,7 +35,7 @@ public class XRayCharacter : MonoBehaviour
         {
             xRayOn = !xRayOn;
         }
-        if(xRayOn != true)
+        if (xRayOn != true)
         {
             gameObject.layer = baseLayer;
             meshRenderer.materials = baseMaterials;
