@@ -7,8 +7,11 @@ public class PdaMove : MonoBehaviour
     private Touch touch;
     private float speedModifier;
 
+    public Transform originalCamPos;
+
     private void Start()
     {
+        originalCamPos.position = Camera.main.transform.position;
         speedModifier = 0.001f;
     }
 

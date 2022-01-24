@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class DeviceButtons : MonoBehaviour
 {
+    public PdaMove pdaMove;
     public XRayCharacter XRayCharacter;
     public XRayVision XRayVision;
     public PlayerMovement playerMovement;
@@ -27,6 +28,7 @@ public class DeviceButtons : MonoBehaviour
     public GameObject winParticle;
     public GameObject failParticle;
     public Transform particlePos;
+    public Transform particlePos2;
 
     void Start()
     {
@@ -44,6 +46,7 @@ public class DeviceButtons : MonoBehaviour
 
     public void Out()
     {
+        Camera.main.transform.position = pdaMove.originalCamPos.position;
         inAnim.SetBool("out", true);
         inAnim.SetBool("in", false);
         pdaOn.SetActive(true);
@@ -106,7 +109,7 @@ public class DeviceButtons : MonoBehaviour
         yield return new WaitForSeconds(3f);
         playerMovement.PickUpTruck();
         //Instantiate(winParticle, particlePos.position, Quaternion.identity);
-        Instantiate(failParticle, particlePos.position, Quaternion.identity);
+        Instantiate(failParticle, particlePos2.position, Quaternion.Euler(-90, 0, 0));
 
         yield return new WaitForSeconds(0.5f);
         playerMovement.trafficStop = false;
