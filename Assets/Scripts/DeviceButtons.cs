@@ -64,6 +64,8 @@ public class DeviceButtons : MonoBehaviour
         screenBlack.SetActive(true);
         screen1.SetActive(false);
         screen2.SetActive(false);
+        arrestBtn.SetActive(false);
+        releaseBtn.SetActive(false);
         suspectText.SetActive(false);
         yield return new WaitForSeconds(1f);
         XRayCharacter.xRayOn = true;
@@ -81,6 +83,8 @@ public class DeviceButtons : MonoBehaviour
         yield return new WaitForSeconds(1f);
         screen1.SetActive(true);
         screen2.SetActive(true);
+        arrestBtn.SetActive(true);
+        releaseBtn.SetActive(true);
         suspectText.SetActive(true);
 
         screenBlack.SetActive(false);

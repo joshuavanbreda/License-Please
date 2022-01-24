@@ -6,6 +6,9 @@ EditorBuildSettings:
   serializedVersion: 2
   m_Scenes:
   - enabled: 0
-    path: Assets/Scenes/Gameplay.unity
+    path: 
     guid: 6dee59e36084b0d469f915414313ea97
+  - enabled: 1
+    path: Assets/Scenes/LevelConceptDupe.unity
+    guid: ce10edc28ca6ae9408ddb6d419a9f7f3
   m_configObjects: {}
