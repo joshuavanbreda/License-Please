@@ -24,6 +24,10 @@ public class DeviceButtons : MonoBehaviour
 
     public GameObject policeman;
 
+    public GameObject winParticle;
+    public GameObject failParticle;
+    public Transform particlePos;
+
     void Start()
     {
         pdaOn.SetActive(true);
@@ -50,7 +54,7 @@ public class DeviceButtons : MonoBehaviour
     public void Arrest()
     {
         policeman.SetActive(true);
-        StartCoroutine(RespawnNew());
+        StartCoroutine(PickUpTruckWait());
     }
 
     public void Release()
@@ -95,5 +99,21 @@ public class DeviceButtons : MonoBehaviour
         yield return new WaitForSeconds(10f);
         playerSelection.RandomCharacterSpawn();
         policeman.SetActive(false);
+    }
+
+    public IEnumerator PickUpTruckWait()
+    {
+        yield return new WaitForSeconds(3f);
+        playerMovement.PickUpTruck();
+        //Instantiate(winParticle, particlePos.position, Quaternion.identity);
+        Instantiate(failParticle, particlePos.position, Quaternion.identity);
+
+        yield return new WaitForSeconds(0.5f);
+        playerMovement.trafficStop = false;
+        yield return new WaitForSeconds(10f);
+        playerSelection.RandomCharacterSpawn();
+        policeman.SetActive(false);
+        playerMovement.trafficBarrier.SetActive(true);
+        playerMovement.resetRotationTruck();
     }
 }
