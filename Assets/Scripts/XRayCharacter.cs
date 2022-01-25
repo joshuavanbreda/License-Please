@@ -31,10 +31,10 @@ public class XRayCharacter : MonoBehaviour
     // Update is called once per frame
     void Update()
     {
-        if (Input.GetKeyDown(KeyCode.X))
-        {
-            xRayOn = !xRayOn;
-        }
+        //if (Input.GetKeyDown(KeyCode.X))
+        //{
+        //    xRayOn = !xRayOn;
+        //}
         if (xRayOn != true)
         {
             gameObject.layer = baseLayer;

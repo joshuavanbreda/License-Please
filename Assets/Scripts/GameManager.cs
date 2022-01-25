@@ -32,6 +32,10 @@ public class GameManager : MonoBehaviour
         deviceButtons.pda.SetActive(true);
         playerSelection.SuspectSpawn();
         startBtn.SetActive(false);
+        deviceButtons.clipboard.SetActive(true);
+        //deviceButtons.pdaOn.SetActive(true);
+        //deviceButtons.arrestBtn.SetActive(true);
+        //deviceButtons.releaseBtn.SetActive(true);
     }
 
     public void SuspectButton()

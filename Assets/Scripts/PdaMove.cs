@@ -12,7 +12,7 @@ public class PdaMove : MonoBehaviour
     private void Start()
     {
         originalCamPos.position = Camera.main.transform.position;
-        speedModifier = 0.001f;
+        speedModifier = 0.004f;
     }
 
     void Update()

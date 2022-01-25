@@ -4,6 +4,7 @@ using UnityEngine;
 
 public class PlayerMovement : MonoBehaviour
 {
+    public DeviceButtons deviceButtons;
     public GameManager gameManager;
 
     public Transform spawnPoint;
@@ -65,6 +66,10 @@ public class PlayerMovement : MonoBehaviour
         {
             trafficStop = true;
             Debug.Log("yes?");
+
+            deviceButtons.pdaOn.SetActive(true);
+            deviceButtons.arrestBtn.SetActive(true);
+            deviceButtons.releaseBtn.SetActive(true);
         }
     }
 

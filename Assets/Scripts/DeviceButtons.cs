@@ -6,6 +6,7 @@ public class DeviceButtons : MonoBehaviour
 {
     public PdaMove pdaMove;
     public XRayCharacter XRayCharacter;
+    public XRayCharacter1 XRayCharacter1;
     public XRayVision XRayVision;
     public PlayerMovement playerMovement;
     public PlayerSelection playerSelection;
@@ -30,10 +31,15 @@ public class DeviceButtons : MonoBehaviour
     public Transform particlePos;
     public Transform particlePos2;
 
+    public GameObject clipboard;
+
     void Start()
     {
-        pdaOn.SetActive(true);
+        pdaOn.SetActive(false);
         pdaOff.SetActive(false);
+        clipboard.SetActive(false);
+        arrestBtn.SetActive(false);
+        releaseBtn.SetActive(false);
     }
     public void In()
     {
@@ -57,44 +63,57 @@ public class DeviceButtons : MonoBehaviour
     public void Arrest()
     {
         policeman.SetActive(true);
+        pdaOn.SetActive(false);
+        arrestBtn.SetActive(false);
+        releaseBtn.SetActive(false);
         StartCoroutine(PickUpTruckWait());
     }
 
     public void Release()
     {
         playerMovement.trafficStop = false;
+        playerMovement.trafficBarrier.SetActive(false);
+        pdaOn.SetActive(false);
+        arrestBtn.SetActive(false);
+        releaseBtn.SetActive(false);
         StartCoroutine(RespawnNew());
     }
 
     public IEnumerator XrayOnWait()
     {
-        screenBlack.SetActive(true);
-        screen1.SetActive(false);
+        //screenBlack.SetActive(true);
+        //screen1.SetActive(false);
+        //screen2.SetActive(false);
+        //arrestBtn.SetActive(false);//
+        //releaseBtn.SetActive(false);//
+        //clipboard.SetActive(false);//
+        //suspectText.SetActive(false);
+        yield return new WaitForSeconds(1.5f);
         screen2.SetActive(false);
-        arrestBtn.SetActive(false);
-        releaseBtn.SetActive(false);
-        suspectText.SetActive(false);
-        yield return new WaitForSeconds(1f);
         XRayCharacter.xRayOn = true;
+        XRayCharacter1.xRayOn = true;
         XRayVision.xRayOn = true;
 
-        screenBlack.SetActive(false);
+        //screenBlack.SetActive(false);
 
     }
 
     public IEnumerator XrayOffWait()
     {
         XRayCharacter.xRayOn = false;
+        XRayCharacter1.xRayOn = false;
         XRayVision.xRayOn = false;
-        screenBlack.SetActive(true);
-        yield return new WaitForSeconds(1f);
-        screen1.SetActive(true);
         screen2.SetActive(true);
-        arrestBtn.SetActive(true);
-        releaseBtn.SetActive(true);
-        suspectText.SetActive(true);
+        //screenBlack.SetActive(true);
+        yield return new WaitForSeconds(1.5f);
+        //screen1.SetActive(true);
+        //screen2.SetActive(true);
+        //arrestBtn.SetActive(true);//
+        //releaseBtn.SetActive(true);//
+        //clipboard.SetActive(true);//
+        //suspectText.SetActive(true);
 
-        screenBlack.SetActive(false);
+        //screenBlack.SetActive(false);
     }
 
     public IEnumerator RespawnNew()
@@ -102,6 +121,7 @@ public class DeviceButtons : MonoBehaviour
         yield return new WaitForSeconds(10f);
         playerSelection.RandomCharacterSpawn();
         policeman.SetActive(false);
+        playerMovement.trafficBarrier.SetActive(true);
     }
 
     public IEnumerator PickUpTruckWait()
