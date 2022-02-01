@@ -22,104 +22,104 @@ AssetImportWorker0
 -logFile
 Logs/AssetImportWorker0.log
 -srvPort
-65016
+52713
 Successfully changed project path to: /Users/joshua/Documents/GitHub/License-Please
 /Users/joshua/Documents/GitHub/License-Please
 Using Asset Import Pipeline V2.
-Refreshing native plugins compatible for Editor in 80.35 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 108.77 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Initialize engine version: 2020.3.19f1 (68f137dc9bbe)
 [Subsystems] Discovering subsystems at path /Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Resources/UnitySubsystems
 [Subsystems] Discovering subsystems at path /Users/joshua/Documents/GitHub/License-Please/Assets
 GfxDevice: creating device client; threaded=0
-2022-01-31 11:37:11.295 Unity[71318:4250749] DELL SE2219H preferred device: AMD Radeon R9 M370X (high power)
-2022-01-31 11:37:11.295 Unity[71318:4250749] Metal devices available: 2
-2022-01-31 11:37:11.295 Unity[71318:4250749] 0: AMD Radeon R9 M370X (high power)
-2022-01-31 11:37:11.295 Unity[71318:4250749] 1: Intel Iris Pro Graphics (low power)
-2022-01-31 11:37:11.295 Unity[71318:4250749] Using device AMD Radeon R9 M370X (high power)
+2022-02-01 21:44:50.887 Unity[81551:4769985] Color LCD preferred device: AMD Radeon R9 M370X (high power)
+2022-02-01 21:44:50.887 Unity[81551:4769985] Metal devices available: 2
+2022-02-01 21:44:50.887 Unity[81551:4769985] 0: AMD Radeon R9 M370X (high power)
+2022-02-01 21:44:50.887 Unity[81551:4769985] 1: Intel Iris Pro Graphics (low power)
+2022-02-01 21:44:50.887 Unity[81551:4769985] Using device AMD Radeon R9 M370X (high power)
 Initializing Metal device caps: AMD Radeon R9 M370X
 Initialize mono
 Mono path[0] = '/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Managed'
 Mono path[1] = '/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/lib/mono/unityjit'
 Mono config path = '/Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/MonoBleedingEdge/etc'
-Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56318
+Using monoOptions --debugger-agent=transport=dt_socket,embedding=1,server=y,suspend=n,address=127.0.0.1:56551
 Begin MonoManager ReloadAssembly
 Registering precompiled unity dll's ...
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/PlaybackEngines/MacStandaloneSupport/UnityEditor.OSXStandalone.Extensions.dll
 Register platform support module: /Applications/Unity/Hub/Editor/2020.3.19f1/PlaybackEngines/WindowsStandaloneSupport/UnityEditor.WindowsStandalone.Extensions.dll
-Registered in 0.000841 seconds.
+Registered in 0.001033 seconds.
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 69.19 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 110.61 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  3.070 seconds
+- Completed reload, in  4.942 seconds
 Domain Reload Profiling:
-	ReloadAssembly (3070ms)
-		BeginReloadAssembly (46ms)
+	ReloadAssembly (4942ms)
+		BeginReloadAssembly (60ms)
 			ExecutionOrderSort (0ms)
 			DisableScriptedObjects (0ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (1ms)
-		EndReloadAssembly (549ms)
-			LoadAssemblies (45ms)
+			CreateAndSetChildDomain (2ms)
+		EndReloadAssembly (897ms)
+			LoadAssemblies (56ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (204ms)
+			SetupTypeCache (330ms)
 			ReleaseScriptCaches (0ms)
-			RebuildScriptCaches (40ms)
-			SetupLoadedEditorAssemblies (240ms)
+			RebuildScriptCaches (49ms)
+			SetupLoadedEditorAssemblies (389ms)
 				LogAssemblyErrors (0ms)
 				InitializePlatformSupportModulesInManaged (5ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (69ms)
-				BeforeProcessingInitializeOnLoad (29ms)
-				ProcessInitializeOnLoadAttributes (105ms)
-				ProcessInitializeOnLoadMethodAttributes (32ms)
+				RefreshPlugins (111ms)
+				BeforeProcessingInitializeOnLoad (48ms)
+				ProcessInitializeOnLoadAttributes (165ms)
+				ProcessInitializeOnLoadMethodAttributes (60ms)
 				AfterProcessingInitializeOnLoad (0ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
 			AwakeInstancesAfterBackupRestoration (0ms)
 Platform modules already initialized, skipping
 Registering precompiled user dll's ...
-Registered in 0.005239 seconds.
+Registered in 0.005520 seconds.
 Begin MonoManager ReloadAssembly
 Native extension for WindowsStandalone target not found
 Native extension for OSXStandalone target not found
-Refreshing native plugins compatible for Editor in 66.26 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 107.43 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Mono: successfully reloaded assembly
-- Completed reload, in  1.370 seconds
+- Completed reload, in  2.763 seconds
 Domain Reload Profiling:
-	ReloadAssembly (1371ms)
-		BeginReloadAssembly (168ms)
+	ReloadAssembly (2764ms)
+		BeginReloadAssembly (259ms)
 			ExecutionOrderSort (0ms)
-			DisableScriptedObjects (5ms)
+			DisableScriptedObjects (7ms)
 			BackupInstance (0ms)
 			ReleaseScriptingObjects (0ms)
-			CreateAndSetChildDomain (27ms)
-		EndReloadAssembly (1132ms)
-			LoadAssemblies (91ms)
+			CreateAndSetChildDomain (35ms)
+		EndReloadAssembly (2366ms)
+			LoadAssemblies (302ms)
 			RebuildTransferFunctionScriptingTraits (0ms)
-			SetupTypeCache (374ms)
+			SetupTypeCache (695ms)
 			ReleaseScriptCaches (1ms)
-			RebuildScriptCaches (59ms)
-			SetupLoadedEditorAssemblies (370ms)
+			RebuildScriptCaches (120ms)
+			SetupLoadedEditorAssemblies (730ms)
 				LogAssemblyErrors (0ms)
-				InitializePlatformSupportModulesInManaged (4ms)
+				InitializePlatformSupportModulesInManaged (10ms)
 				SetLoadedEditorAssemblies (0ms)
-				RefreshPlugins (66ms)
-				BeforeProcessingInitializeOnLoad (91ms)
-				ProcessInitializeOnLoadAttributes (201ms)
-				ProcessInitializeOnLoadMethodAttributes (5ms)
-				AfterProcessingInitializeOnLoad (1ms)
+				RefreshPlugins (108ms)
+				BeforeProcessingInitializeOnLoad (174ms)
+				ProcessInitializeOnLoadAttributes (422ms)
+				ProcessInitializeOnLoadMethodAttributes (13ms)
+				AfterProcessingInitializeOnLoad (4ms)
 				EditorAssembliesLoaded (0ms)
 			ExecutionOrderSort2 (0ms)
-			AwakeInstancesAfterBackupRestoration (8ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
 Platform modules already initialized, skipping
-Validating Project structure ... 0.033965 seconds.
+Validating Project structure ... 0.054453 seconds.
 Shader import version has changed; will reimport all shaders...
-Upgrading shader files ...0.045645 seconds.
+Upgrading shader files ...0.066888 seconds.
 Application.AssetDatabase Initial Script Refresh Start
 RefreshInfo: InitialScriptRefreshV2(NoUpdateAssetOptions) scanfilter:  ... 1 filters
 RefreshProfiler: Total: 0.000ms
@@ -131,18 +131,18 @@ RefreshProfiler: Total: 0.000ms
 Launching external process: /Applications/Unity/Hub/Editor/2020.3.19f1/Unity.app/Contents/Tools/UnityShaderCompiler
 Launched and connected shader compiler UnityShaderCompiler after 0.01 seconds
 Initializing Unity extensions:
-2022-01-31 11:37:20.827 Unity[71318:4250749] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x600003591260 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
-2022-01-31 11:37:20.834 Unity[71318:4250749] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000035e79c0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-02-01 21:45:00.866 Unity[81551:4769985] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000005d8af0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+2022-02-01 21:45:00.871 Unity[81551:4769985] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000005bf5d0 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
 ========================================================================
 Worker process is ready to serve import requests
-Refreshing native plugins compatible for Editor in 1.03 ms, found 2 plugins.
+Refreshing native plugins compatible for Editor in 1.29 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 1896 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 229.6 MB.
+System memory in use before: 229.7 MB.
 System memory in use after: 227.6 MB.
 
 Unloading 181 unused Assets to reduce memory usage. Loaded Objects now: 2316.
-Total: 5.769147 ms (FindLiveObjects: 0.457353 ms CreateObjectMapping: 0.203177 ms MarkObjects: 4.186386 ms  DeleteObjects: 0.920042 ms)
+Total: 6.548476 ms (FindLiveObjects: 0.248048 ms CreateObjectMapping: 0.078613 ms MarkObjects: 4.597133 ms  DeleteObjects: 1.623359 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
@@ -156,1181 +156,170 @@ AssetImportParameters requested are different than current active one (requested
   custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
 ========================================================================
 Received Import Request.
-  path: Assets/UI/5f493bf268ecc70004ae711f.png
-  artifactKey: Guid(6db21d34508d0d84ea6b162646df4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/UI/5f493bf268ecc70004ae711f.png using Guid(6db21d34508d0d84ea6b162646df4e3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '48cc5810732f4116c6e201bbcc7fa9c8') in 0.812515 seconds 
-  Import took 0.816626 seconds .
+  path: Assets/Scripts/GameManager.cs
+  artifactKey: Guid(687cf241f1d80c34eaeaef9da915aae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/GameManager.cs using Guid(687cf241f1d80c34eaeaef9da915aae2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '225d97132aee0edddcf308ef743f7e25') in 3.112748 seconds 
+  Import took 3.117322 seconds .
 
 ========================================================================
 Received Import Request.
-  Time since last request: 24.739779 seconds.
-  path: Assets/Textures/Angry.png
-  artifactKey: Guid(0f312bb34e412434083e399fa22f8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Angry.png using Guid(0f312bb34e412434083e399fa22f8d18) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4691087b01995c24126325bb940c58ea') in 0.015014 seconds 
-  Import took 0.018586 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000278 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/asphalt01.png
-  artifactKey: Guid(301801463abdc854abc6623b585bd965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/asphalt01.png using Guid(301801463abdc854abc6623b585bd965) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '517580b2b28afc06089caf2d04b7eb35') in 0.028030 seconds 
-  Import took 0.031593 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000326 seconds.
-  path: Assets/Interior Asset/Source/Armchair/Materials/Armchair_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(2d617b6ffdb375e409bd8192eeb61ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Armchair/Materials/Armchair_DefaultMaterial_AlbedoTransparency.tga using Guid(2d617b6ffdb375e409bd8192eeb61ff1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8aa739decb64c3fbac4f43400f8e26e1') in 1.211866 seconds 
-  Import took 1.215278 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003493 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/asphalt02.png
-  artifactKey: Guid(09d63dafdd5e91c49907842c83e5aad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/asphalt02.png using Guid(09d63dafdd5e91c49907842c83e5aad7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36ab7fdc071fe2439703e5204e750243') in 0.027225 seconds 
-  Import took 0.031320 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Interior Asset/Source/Armchair/Materials/Armchair_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(16e72f5ba6ace044d81c72f85d8dcbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Armchair/Materials/Armchair_DefaultMaterial_MetallicSmoothness.tga using Guid(16e72f5ba6ace044d81c72f85d8dcbd4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '83284215824e05224ccd5fd317b74131') in 0.101388 seconds 
-  Import took 0.104758 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000332 seconds.
-  path: Assets/Interior Asset/Source/Armchair/Materials/Armchair_DefaultMaterial_Normal.tga
-  artifactKey: Guid(1009e4ad75bce56499847fc9b129460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Armchair/Materials/Armchair_DefaultMaterial_Normal.tga using Guid(1009e4ad75bce56499847fc9b129460c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96b252106d0f3a92a30795e1d98b95f9') in 0.079603 seconds 
-  Import took 0.082995 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.951141 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/asphalt03.png
-  artifactKey: Guid(eb7c60003edf62941a1405f151f1d6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/asphalt03.png using Guid(eb7c60003edf62941a1405f151f1d6ba) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a4910698adc0e27dfed2dc877002afc') in 0.016086 seconds 
-  Import took 0.020016 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000276 seconds.
-  path: Assets/polyperfect/- Scripts/Resources/AudioSpectrum.jpg
-  artifactKey: Guid(ba18fe4e7297a7b47b65881f01f8d0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/- Scripts/Resources/AudioSpectrum.jpg using Guid(ba18fe4e7297a7b47b65881f01f8d0b6) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f9c74b4c7d852ba3be6f2cefc1c38493') in 0.678125 seconds 
-  Import took 0.681797 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.004504 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/awning01.png
-  artifactKey: Guid(2152b322285347f4fb3ddeb41fbbc3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/awning01.png using Guid(2152b322285347f4fb3ddeb41fbbc3d5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fdfc5f3d15e2ed49aa840d2814a5f1d4') in 0.011150 seconds 
-  Import took 0.014847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/awning02.png
-  artifactKey: Guid(e4a5d0b08a913c94f8a79c28b92df18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/awning02.png using Guid(e4a5d0b08a913c94f8a79c28b92df18a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b0811b8a615d4e09f534b75548880a55') in 0.010765 seconds 
-  Import took 0.014424 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Meshes/Decorative plants/Textures/Bamboo diffuse.tga
-  artifactKey: Guid(0195ac67f1c180c4d880e57ff21b1535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Decorative plants/Textures/Bamboo diffuse.tga using Guid(0195ac67f1c180c4d880e57ff21b1535) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97eb5c7c8b6a0f9a55290645c1dd9db6') in 0.013706 seconds 
-  Import took 0.016699 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 1.967410 seconds.
-  path: Assets/Meshes/Decorative plants/Textures/Bamboo normal.tga
-  artifactKey: Guid(ad77cf091ef199a489cb4f233571ae9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Meshes/Decorative plants/Textures/Bamboo normal.tga using Guid(ad77cf091ef199a489cb4f233571ae9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2a64a8e5d3f0e3665f85e5f695cca24a') in 0.012980 seconds 
-  Import took 0.016607 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000248 seconds.
-  path: Assets/Tabtale/TTPlugins/Banners/Resources/Prefabs/bannerImage.png
-  artifactKey: Guid(f526b3b2743cd46e5ac38dee625dd3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/Banners/Resources/Prefabs/bannerImage.png using Guid(f526b3b2743cd46e5ac38dee625dd3e0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc741b39bf6ab277f332bd5148282928') in 0.014726 seconds 
-  Import took 0.018144 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.091845 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/black.png
-  artifactKey: Guid(41aac1b0b0de26946a6a40e6461d883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/black.png using Guid(41aac1b0b0de26946a6a40e6461d883e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '06385b2ec67ab92249fb9c43f4856519') in 0.012191 seconds 
-  Import took 0.016450 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.056155 seconds.
-  path: Assets/Interior Asset/Source/Books/3/Materials/Book_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(5c9bd3c76a5e3a24d88424e7031b1c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/3/Materials/Book_DefaultMaterial_AlbedoTransparency.tga using Guid(5c9bd3c76a5e3a24d88424e7031b1c84) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ecf75c86119147efda0225e2b51cfbc8') in 0.077530 seconds 
-  Import took 0.081560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Interior Asset/Source/Books/2/Materials/Book_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(1901808c5fa5321478f456c5c32e2657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/2/Materials/Book_DefaultMaterial_AlbedoTransparency.tga using Guid(1901808c5fa5321478f456c5c32e2657) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f33b46f603b5356c4007b91c87bd7255') in 0.075580 seconds 
-  Import took 0.078583 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000304 seconds.
-  path: Assets/Interior Asset/Source/Books/2/Materials/Book_DefaultMaterial_AO.tga
-  artifactKey: Guid(06d5f85339f690b4cae9fdb6fa354a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/2/Materials/Book_DefaultMaterial_AO.tga using Guid(06d5f85339f690b4cae9fdb6fa354a57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a64556490de1f62dc2854f57f70d9e24') in 0.079702 seconds 
-  Import took 0.082730 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Interior Asset/Source/Books/1/Materials/Book_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(c892b9f6843279a40aa44920f148ba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/1/Materials/Book_DefaultMaterial_AlbedoTransparency.tga using Guid(c892b9f6843279a40aa44920f148ba30) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9f6677bf6d2b4cb28d703a8e31bc8eab') in 0.078732 seconds 
-  Import took 0.082437 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000277 seconds.
-  path: Assets/Interior Asset/Source/Books/1/Materials/Book_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(e381272e9a8d9664cb06d1fa77166977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/1/Materials/Book_DefaultMaterial_MetallicSmoothness.tga using Guid(e381272e9a8d9664cb06d1fa77166977) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '17101e54eec0fe8fd9643bb47e6272b5') in 0.094975 seconds 
-  Import took 0.098903 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000368 seconds.
-  path: Assets/Interior Asset/Source/Books/3/Materials/Book_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(fb3e932428c32174085ebf5914726b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/3/Materials/Book_DefaultMaterial_MetallicSmoothness.tga using Guid(fb3e932428c32174085ebf5914726b95) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ac6b5ef1cd60ef24d56fcd5f48a2831e') in 0.094834 seconds 
-  Import took 0.098851 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Interior Asset/Source/Books/1/Materials/Book_DefaultMaterial_Normal.tga
-  artifactKey: Guid(9ad12f20824565f4db3a3018e85b1941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/1/Materials/Book_DefaultMaterial_Normal.tga using Guid(9ad12f20824565f4db3a3018e85b1941) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b90cb62f4d3b5ba37749ab2cf3b662fa') in 0.077944 seconds 
-  Import took 0.081542 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000264 seconds.
-  path: Assets/Interior Asset/Source/Books/1/Materials/Book_DefaultMaterial_AO.tga
-  artifactKey: Guid(d0e289109477ff240bd3939809bc4bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/1/Materials/Book_DefaultMaterial_AO.tga using Guid(d0e289109477ff240bd3939809bc4bac) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '78f19baf0a13a065e4ddd1f235dadf7f') in 0.073788 seconds 
-  Import took 0.076939 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Interior Asset/Source/Books/2/Materials/Book_DefaultMaterial_Normal.tga
-  artifactKey: Guid(ceb363962705dc04496757d56da26ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/2/Materials/Book_DefaultMaterial_Normal.tga using Guid(ceb363962705dc04496757d56da26ad0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '35361ee5df468ebf96d392c7ede78165') in 0.076282 seconds 
-  Import took 0.079162 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/Interior Asset/Source/Books/3/Materials/Book_DefaultMaterial_Normal.tga
-  artifactKey: Guid(6219b43c63fa4d14a830341f74355e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/3/Materials/Book_DefaultMaterial_Normal.tga using Guid(6219b43c63fa4d14a830341f74355e9c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'de8c1b6e8afc60e592f1359407cb4399') in 0.073674 seconds 
-  Import took 0.076751 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000235 seconds.
-  path: Assets/Interior Asset/Source/Books/2/Materials/Book_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(f05267cf73283bb4eb55eed3d094a51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/2/Materials/Book_DefaultMaterial_MetallicSmoothness.tga using Guid(f05267cf73283bb4eb55eed3d094a51c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4536091cb7cbdf09b07e4e28e0ed764d') in 0.090469 seconds 
-  Import took 0.093724 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Interior Asset/Source/Books/3/Materials/Book_DefaultMaterial_AO.tga
-  artifactKey: Guid(6b4292f928817694e90b0d9afd360a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Books/3/Materials/Book_DefaultMaterial_AO.tga using Guid(6b4292f928817694e90b0d9afd360a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '34e4959f6fdd229b59fd5d0c2d7cd328') in 0.073481 seconds 
-  Import took 0.076789 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.059657 seconds.
-  path: Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerBegin.psd
-  artifactKey: Guid(9515108b8376ad7418e8138858201b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerBegin.psd using Guid(9515108b8376ad7418e8138858201b72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '21769a572f7c1a0308b4362cc16d3589') in 1.080436 seconds 
-  Import took 1.084500 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003071 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/brick05.png
-  artifactKey: Guid(91a509865125c7444a5b8b4b33371542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/brick05.png using Guid(91a509865125c7444a5b8b4b33371542) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b7d4eb79ceac29f97175a328a6b2c80') in 0.013106 seconds 
-  Import took 0.016893 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000262 seconds.
-  path: Assets/Interior Asset/Source/InteriorPlant/Cactus/Materials/Cactus_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(96b5112c7f40cfb48bd0e6f568dd5509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/InteriorPlant/Cactus/Materials/Cactus_DefaultMaterial_MetallicSmoothness.tga using Guid(96b5112c7f40cfb48bd0e6f568dd5509) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8e67963eb85a4873e012c629a0afca70') in 0.092931 seconds 
-  Import took 0.096394 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/brick01.png
-  artifactKey: Guid(348e3284527638842b68360169a186ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/brick01.png using Guid(348e3284527638842b68360169a186ab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '75f5cd2e92ffa291a13a514a5cb2cf2a') in 0.009778 seconds 
-  Import took 0.012991 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerMiddle.psd
-  artifactKey: Guid(e3767adfa5dac5544830cd097ef6c09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerMiddle.psd using Guid(e3767adfa5dac5544830cd097ef6c09f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '98edb4854460969c6e0f1d1bf9eb1791') in 0.006709 seconds 
-  Import took 0.009571 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000215 seconds.
-  path: Assets/Tabtale/TTPlugins/RateUs/Prefabs/Resources/Images/button.png
-  artifactKey: Guid(2e9f4bf83a02a4941b7c2bc353217a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/RateUs/Prefabs/Resources/Images/button.png using Guid(2e9f4bf83a02a4941b7c2bc353217a2e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '842d48d5300d677905afefbf525457f7') in 0.019141 seconds 
-  Import took 0.022503 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - IconHelp.psd
-  artifactKey: Guid(b676a215be26cba488e51c0dda84e72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - IconHelp.psd using Guid(b676a215be26cba488e51c0dda84e72d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c14ec6aad0b9a38536d017a86ae167f') in 0.005842 seconds 
-  Import took 0.009044 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryBegin.psd
-  artifactKey: Guid(97ec2262fb592f94a9569e156ea65d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryBegin.psd using Guid(97ec2262fb592f94a9569e156ea65d7b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '96eb1c0ee10f03cbfb5a906c45efd067') in 0.005976 seconds 
-  Import took 0.008930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/brick03.png
-  artifactKey: Guid(b2a38c6bf0443ea4f80977f1634d50c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/brick03.png using Guid(b2a38c6bf0443ea4f80977f1634d50c1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a7234d8ccab6ee353a65d840a494575e') in 0.007985 seconds 
-  Import took 0.010810 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerEnd.psd
-  artifactKey: Guid(0dd3fbd5475976a4aa96298afc680d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - BannerEnd.psd using Guid(0dd3fbd5475976a4aa96298afc680d17) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22d3e089a665c66d392adf2d90528371') in 0.008071 seconds 
-  Import took 0.010932 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000274 seconds.
-  path: Assets/Interior Asset/Source/InteriorPlant/Cactus/Materials/Cactus_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(98702dd22c8d1f7419bc1491cb4d6e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/InteriorPlant/Cactus/Materials/Cactus_DefaultMaterial_AlbedoTransparency.tga using Guid(98702dd22c8d1f7419bc1491cb4d6e03) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '84f4c8dcb5b0b3fe853c6f8db3de89ff') in 0.072767 seconds 
-  Import took 0.076012 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Simple Vehicle Pack/Textures/cars_AO.tif
-  artifactKey: Guid(bfccf8a69e2d9404da142af497edf1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Vehicle Pack/Textures/cars_AO.tif using Guid(bfccf8a69e2d9404da142af497edf1a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f55d5df4fee042c56e945b56e8954ae7') in 1.133764 seconds 
-  Import took 1.136930 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003728 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/cover.png
-  artifactKey: Guid(63de6438565e9184ca3f53bdc2dc0c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/cover.png using Guid(63de6438565e9184ca3f53bdc2dc0c33) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f38f468c7d5d06a27208e195fced1c9c') in 0.010563 seconds 
-  Import took 0.013376 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000374 seconds.
-  path: Assets/Simple Vehicle Pack/Textures/cars_metallic.tif
-  artifactKey: Guid(74e476af0a0a8e9479ec32d4e03bbc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Vehicle Pack/Textures/cars_metallic.tif using Guid(74e476af0a0a8e9479ec32d4e03bbc75) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '399fb1779483c51db68d9f31525cf820') in 0.098238 seconds 
-  Import took 0.101533 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/door03.png
-  artifactKey: Guid(6c726af8704e2fa43aac332b55404e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/door03.png using Guid(6c726af8704e2fa43aac332b55404e6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'fc87ada741babbc06c43e7afa87a6e54') in 0.011337 seconds 
-  Import took 0.014596 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/Interior Asset/Source/InteriorPlant/Cactus/Materials/Cactus_DefaultMaterial_Normal.tga
-  artifactKey: Guid(05cd97630513936449c0e940e40d6006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/InteriorPlant/Cactus/Materials/Cactus_DefaultMaterial_Normal.tga using Guid(05cd97630513936449c0e940e40d6006) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '410b919281f0b7d38bb554dfa0e4b3ba') in 0.075819 seconds 
-  Import took 0.079428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/ToonPeople2.3/textures/eye1.png
-  artifactKey: Guid(28e836a393f643f4085487d0e8047c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/eye1.png using Guid(28e836a393f643f4085487d0e8047c05) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36442ce9782902b743cc126708758a15') in 0.014852 seconds 
-  Import took 0.017567 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Particle Effects/Confetti FX/Textures/confettiblurred4x4.png
-  artifactKey: Guid(7e3039b2a7bbde4448fb3ed6175ca0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Effects/Confetti FX/Textures/confettiblurred4x4.png using Guid(7e3039b2a7bbde4448fb3ed6175ca0d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dc8879f5c991cc367e32b7b1baee408f') in 0.033307 seconds 
-  Import took 0.036275 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/polyperfect/Low Poly Animated People/- Textures/color-atlas-gradient.png
-  artifactKey: Guid(7c76066b2cbab42119531124a300d5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated People/- Textures/color-atlas-gradient.png using Guid(7c76066b2cbab42119531124a300d5cc) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ff6c7c180272421caea73c2bd3bc7e80') in 0.039004 seconds 
-  Import took 0.042653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/ToonPeople2.3/textures/eye3.png
-  artifactKey: Guid(b7f7341cc7813854c81634f2bb0c93b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/eye3.png using Guid(b7f7341cc7813854c81634f2bb0c93b4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '870789f69b0185184ef2c0c19971a3bd') in 0.013521 seconds 
-  Import took 0.016608 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/door02.png
-  artifactKey: Guid(8038f70474fa93042af98c63c54b28ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/door02.png using Guid(8038f70474fa93042af98c63c54b28ff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b4f1fae91592472dfae37ee5210d27fa') in 0.012826 seconds 
-  Import took 0.016054 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000211 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/props_FBX/fence 3 texture 1.png
-  artifactKey: Guid(d7cdb093285c68e438496ba197a85005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/props_FBX/fence 3 texture 1.png using Guid(d7cdb093285c68e438496ba197a85005) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '013a82c72a6057dfac44765e02a23938') in 0.010499 seconds 
-  Import took 0.013785 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/concrete02.png
-  artifactKey: Guid(781c29064e1f8d2498bca4dd2496295f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/concrete02.png using Guid(781c29064e1f8d2498bca4dd2496295f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd6435305846ab009e6e16984cccf0dda') in 0.009620 seconds 
-  Import took 0.012547 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000234 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/concrete01.png
-  artifactKey: Guid(ff9add03c0589d44dbbd68fd18f3d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/concrete01.png using Guid(ff9add03c0589d44dbbd68fd18f3d6f0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '769f79ae318c3c90a96d0a6c9016feb7') in 0.011087 seconds 
-  Import took 0.013855 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Simple Vehicle Pack/Textures/cars_albedo.tif
-  artifactKey: Guid(3ab13998715565f41826b8e7e94e9be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Simple Vehicle Pack/Textures/cars_albedo.tif using Guid(3ab13998715565f41826b8e7e94e9be4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'df988871488dd6e10b0523ae359e5c3c') in 0.074203 seconds 
-  Import took 0.077760 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000236 seconds.
-  path: Assets/Interior Asset/Source/InteriorPlant/Grass/Materials/fern.png
-  artifactKey: Guid(50a1fb8a97b07474fafa3927c4e0e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/InteriorPlant/Grass/Materials/fern.png using Guid(50a1fb8a97b07474fafa3927c4e0e7d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4d1b66742712ca532567b41d1ba6b1e4') in 0.020722 seconds 
-  Import took 0.023777 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000240 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/floor.png
-  artifactKey: Guid(8f12484a93ad1cc4683e16351827527b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/floor.png using Guid(8f12484a93ad1cc4683e16351827527b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '03bc0620106acad572eb7fc6c430ed9e') in 0.009118 seconds 
-  Import took 0.011772 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000210 seconds.
-  path: Assets/Tabtale/TTPlugins/OpenAds/Resources/Prefabs/CLLogo.png
-  artifactKey: Guid(bf4ab191c94e34ad48a3ad0358eb9d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/OpenAds/Resources/Prefabs/CLLogo.png using Guid(bf4ab191c94e34ad48a3ad0358eb9d06) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8159fcb7fb2883fd3ab317b5f511c553') in 0.017292 seconds 
-  Import took 0.019943 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/ToonPeople2.3/textures/eye4.png
-  artifactKey: Guid(0465ae717de34944fa6f773d811655ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/eye4.png using Guid(0465ae717de34944fa6f773d811655ef) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529df223525fa18e7970ab56bf0357a5') in 0.017421 seconds 
-  Import took 0.020266 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000230 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/concrete03.png
-  artifactKey: Guid(2b1841f024b5d034a93567f255222e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/concrete03.png using Guid(2b1841f024b5d034a93567f255222e51) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6c14c6531a1caebd1ab0785d18d41591') in 0.010006 seconds 
-  Import took 0.012557 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000253 seconds.
-  path: Assets/ToonPeople2.3/textures/eye2.png
-  artifactKey: Guid(10bce5d4362f2ba49ab1e2d8d6b41037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/eye2.png using Guid(10bce5d4362f2ba49ab1e2d8d6b41037) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '159b990ac87397e176aee054a6b0662d') in 0.014374 seconds 
-  Import took 0.017465 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000259 seconds.
-  path: Assets/Fonts/Black Carrot.ttf
-  artifactKey: Guid(01f849d49106a7d428d63c63fe969830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/Black Carrot.ttf using Guid(01f849d49106a7d428d63c63fe969830) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72432eecb1ff87b97d884125ee3c738b') in 1.726690 seconds 
-  Import took 1.730070 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003015 seconds.
-  path: Assets/ToonPeople2.3/textures/eyeem.png
-  artifactKey: Guid(d88d211d2bf2ea2448316412d9a2ca6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/eyeem.png using Guid(d88d211d2bf2ea2448316412d9a2ca6c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'f207454f99f20ab5d418a5f5011c615c') in 0.008498 seconds 
-  Import took 0.011523 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/Interior Asset/Source/Pictures/1/Materials/picture_DefaultMaterial_Normal.tga
-  artifactKey: Guid(19b1d4eb85964ad40adbe56f095e2677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pictures/1/Materials/picture_DefaultMaterial_Normal.tga using Guid(19b1d4eb85964ad40adbe56f095e2677) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5d3f3539c503628994e28138d1ae4bdb') in 0.079852 seconds 
-  Import took 0.083354 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/Interior Asset/Source/Pictures/1/Materials/picture_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(76a571b8156691b43ac6fb5f3083e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pictures/1/Materials/picture_DefaultMaterial_AlbedoTransparency.tga using Guid(76a571b8156691b43ac6fb5f3083e419) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3e5c40d49db89489a7147ab39ad1f45b') in 0.075019 seconds 
-  Import took 0.079139 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Interior Asset/Source/Pictures/2/Materials/picture_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(62117e0bcc8abbe4394d5df81fec6e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pictures/2/Materials/picture_DefaultMaterial_AlbedoTransparency.tga using Guid(62117e0bcc8abbe4394d5df81fec6e86) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1aa23adfce81c04dd69786ffd6ddd6c8') in 0.074748 seconds 
-  Import took 0.077906 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Interior Asset/Source/Chair/PillowChair/Materials/PillowChair_DefaultMaterial_Normal.tga
-  artifactKey: Guid(31ed3d544f42ace42927d3d907d9e321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Chair/PillowChair/Materials/PillowChair_DefaultMaterial_Normal.tga using Guid(31ed3d544f42ace42927d3d907d9e321) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '220e810199027ca59836417d973f0f64') in 0.076445 seconds 
-  Import took 0.079644 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000246 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png
-  artifactKey: Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Blue Sky.png using Guid(beb1457d375110e468b8d8e1f29fccea) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ab189c5df44b2f44ad8307469cc1d949') in 0.236328 seconds 
-  Import took 0.247269 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000300 seconds.
-  path: Assets/Interior Asset/Source/InteriorPlant/Pot/Materials/Pot_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(f36776a8d70e182429b5bf2af92c1034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/InteriorPlant/Pot/Materials/Pot_DefaultMaterial_AlbedoTransparency.tga using Guid(f36776a8d70e182429b5bf2af92c1034) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '55bd48acabcd156ab98f087bb589395f') in 0.074802 seconds 
-  Import took 0.078576 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Tabtale/TTPlugins/Promotion/Resources/Prefabs/promotion.jpg
-  artifactKey: Guid(f17e6045c890e444ab943f3114143c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/Promotion/Resources/Prefabs/promotion.jpg using Guid(f17e6045c890e444ab943f3114143c66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0e9dcff4b8d2e78446fbf13036cb57ea') in 0.017929 seconds 
-  Import took 0.021375 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/gray.png
-  artifactKey: Guid(7fdb59538cd56934388c0daf16ad244d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/gray.png using Guid(7fdb59538cd56934388c0daf16ad244d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '22139355eb23d83f865db0ca87a2ce3f') in 0.007600 seconds 
-  Import took 0.010938 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000319 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesA02.png
-  artifactKey: Guid(e1ff0f3438c5f3349a7457fc12512a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesA02.png using Guid(e1ff0f3438c5f3349a7457fc12512a22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6131a4dad535b7279f375b68f07cf351') in 0.013798 seconds 
-  Import took 0.016804 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000213 seconds.
-  path: Assets/Interior Asset/Source/Pillows/1/Materials/Pillow1_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(3e0312fe3d136b049bf46ee59553c28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pillows/1/Materials/Pillow1_DefaultMaterial_AlbedoTransparency.tga using Guid(3e0312fe3d136b049bf46ee59553c28a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '16cf7f43865f693f8e3c670a40922bf6') in 0.078534 seconds 
-  Import took 0.082173 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesD02.png
-  artifactKey: Guid(bdd585cb4757e0048ab34212b569cfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesD02.png using Guid(bdd585cb4757e0048ab34212b569cfa0) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '264cb261ddda92874b6a50523b365b5d') in 0.012938 seconds 
-  Import took 0.016345 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000268 seconds.
-  path: Assets/Interior Asset/Source/Pillows/1/Materials/Pillow1_DefaultMaterial_Normal.tga
-  artifactKey: Guid(981aded87391e594aacb29b3356b5aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pillows/1/Materials/Pillow1_DefaultMaterial_Normal.tga using Guid(981aded87391e594aacb29b3356b5aca) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '455f0ce9bc2bce5f3b08da6bf40f3fc9') in 0.076442 seconds 
-  Import took 0.079706 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000251 seconds.
-  path: Assets/polyperfect/Low Poly Animated People/- Textures/color-atlas.png
-  artifactKey: Guid(a2b843d55b0e54a178be2b33c3b80b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated People/- Textures/color-atlas.png using Guid(a2b843d55b0e54a178be2b33c3b80b96) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '97dff447b5dd6218c448c4c32ddf3c0e') in 0.027001 seconds 
-  Import took 0.030356 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000294 seconds.
-  path: Assets/Interior Asset/Source/Pillows/2/Materials/Pillow2_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(9887fb646bc1c824f8a8cfce6c07a0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pillows/2/Materials/Pillow2_DefaultMaterial_AlbedoTransparency.tga using Guid(9887fb646bc1c824f8a8cfce6c07a0df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '49c140afbe04d627967e77f5fac86363') in 0.076420 seconds 
-  Import took 0.079897 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000275 seconds.
-  path: Assets/Interior Asset/Source/Shelf1/Materials/Shelf1_DefaultMaterial_Normal.tga
-  artifactKey: Guid(b8a9e32b007ab184a84029e3b1317b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Shelf1/Materials/Shelf1_DefaultMaterial_Normal.tga using Guid(b8a9e32b007ab184a84029e3b1317b3d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9a05c29612a7db5c61d2a71dab80ddde') in 0.075516 seconds 
-  Import took 0.078708 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000286 seconds.
-  path: Assets/Interior Asset/Source/Chair/Materials/Chair_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(9f9dd75ed191f5e4a90f9882e202b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Chair/Materials/Chair_DefaultMaterial_AlbedoTransparency.tga using Guid(9f9dd75ed191f5e4a90f9882e202b270) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0a85fb57af2d6ed64ad4a60c99b11c37') in 0.075644 seconds 
-  Import took 0.078793 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000314 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/brick02.png
-  artifactKey: Guid(4d0dc23d8201db6418581df80cc3576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/brick02.png using Guid(4d0dc23d8201db6418581df80cc3576a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8af9f155813b2f160b2d1f712440e34b') in 0.008746 seconds 
-  Import took 0.012428 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000252 seconds.
-  path: Assets/polyperfect/Low Poly Animated People/- Textures/color-atlas2.png
-  artifactKey: Guid(012d3fa2674274bf0ace6b4b0ce038df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated People/- Textures/color-atlas2.png using Guid(012d3fa2674274bf0ace6b4b0ce038df) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8d977f8e83765c98215f271a2999b9bf') in 0.030339 seconds 
-  Import took 0.033645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000273 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesE01.png
-  artifactKey: Guid(8830e43e2a03fad4882f2859b4898c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesE01.png using Guid(8830e43e2a03fad4882f2859b4898c26) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '118daa26a9664748d5bf9e31d67144ca') in 0.013092 seconds 
-  Import took 0.016566 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - Logo.png
-  artifactKey: Guid(4ebb9926546381046a4271ece54ce919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - Logo.png using Guid(4ebb9926546381046a4271ece54ce919) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '37ea87ae31199a6e2ca1c6065bfa45f1') in 0.006476 seconds 
-  Import took 0.009692 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000256 seconds.
-  path: Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryEnd.psd
-  artifactKey: Guid(e1c856352cf5b9b479ddb80c85c84cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryEnd.psd using Guid(e1c856352cf5b9b479ddb80c85c84cd5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '8bd13b2548f4b04ad55fcbe0107c5a6f') in 0.005433 seconds 
-  Import took 0.008847 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000228 seconds.
-  path: Assets/Interior Asset/Source/Pictures/2/Materials/picture_DefaultMaterial_Normal.tga
-  artifactKey: Guid(2b63799c71793934a9b8ff97a9ad741c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pictures/2/Materials/picture_DefaultMaterial_Normal.tga using Guid(2b63799c71793934a9b8ff97a9ad741c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '72625c5dd81e28a2f58ee62dd80fa983') in 0.073466 seconds 
-  Import took 0.076711 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Tabtale/TTPlugins/CLIK/Editor/minus.png
-  artifactKey: Guid(e96e511cd3f9a4b00b1e298a9e4ade66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/CLIK/Editor/minus.png using Guid(e96e511cd3f9a4b00b1e298a9e4ade66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '3f70178d8e5bb267edb7ed8af6edd84b') in 0.011236 seconds 
-  Import took 0.013819 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000238 seconds.
-  path: Assets/Tabtale/TTPlugins/RateUs/Prefabs/Resources/Images/icon_mask.png
-  artifactKey: Guid(c9896e7e65dcd45089893b5d2b0a5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/RateUs/Prefabs/Resources/Images/icon_mask.png using Guid(c9896e7e65dcd45089893b5d2b0a5989) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c00d3b74c4678814b54131739f4a9790') in 0.029274 seconds 
-  Import took 0.031923 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000216 seconds.
-  path: Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr
-  artifactKey: Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Skybox Cubemap Extended/Demo/Textures/Polyverse Skies - Night Sky.exr using Guid(fa41734a337674542975482c8fe96ea1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '940cd0a7afa1dc5ef21070981be0de67') in 1.282241 seconds 
-  Import took 1.297039 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003574 seconds.
-  path: Assets/Low Poly Police Car Pack/Components/Textures/Police Car Texture 1.png
-  artifactKey: Guid(f0230aca1b2ed004185008ce519cfd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Police Car Pack/Components/Textures/Police Car Texture 1.png using Guid(f0230aca1b2ed004185008ce519cfd22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'e6ae2595737f4d621c5dc0e29f294c67') in 0.030345 seconds 
-  Import took 0.034594 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000310 seconds.
-  path: Assets/Tabtale/TTPlugins/RateUs/Prefabs/Resources/Images/placeholder_icon.png
-  artifactKey: Guid(7ea59eb22b19b41659c6dde85dfa4594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/RateUs/Prefabs/Resources/Images/placeholder_icon.png using Guid(7ea59eb22b19b41659c6dde85dfa4594) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd7dd4003580c5b2011b10d09034a6f83') in 0.019308 seconds 
-  Import took 0.022654 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000285 seconds.
-  path: Assets/Interior Asset/Source/Chair/Materials/Chair_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(19a47726a34f41c4087667487a8ff15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Chair/Materials/Chair_DefaultMaterial_MetallicSmoothness.tga using Guid(19a47726a34f41c4087667487a8ff15a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88fbadaa1215bc5a5c0a3ebd389100f8') in 0.102944 seconds 
-  Import took 0.106381 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000266 seconds.
-  path: Assets/Tabtale/TTPlugins/RewardedInterstitials/Resources/Prefabs/rewardedInterstitial.jpg
-  artifactKey: Guid(daedab574040b43768c12eb9fcfc6eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/RewardedInterstitials/Resources/Prefabs/rewardedInterstitial.jpg using Guid(daedab574040b43768c12eb9fcfc6eaa) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '30693fa5b1a5304cc00bfa2631e99fef') in 0.015531 seconds 
-  Import took 0.018690 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - IconEdit.psd
-  artifactKey: Guid(cf593cb3310b7784a8f0967b8ba89b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - IconEdit.psd using Guid(cf593cb3310b7784a8f0967b8ba89b02) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0b9cb4a5465e154618d3837548f70de1') in 0.007557 seconds 
-  Import took 0.010714 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesA01.png
-  artifactKey: Guid(4abdd411012bf9a47af3bf7d1481de1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesA01.png using Guid(4abdd411012bf9a47af3bf7d1481de1f) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'af488033f20cf112b8ba2d65a7946089') in 0.014805 seconds 
-  Import took 0.017703 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000382 seconds.
-  path: Assets/Interior Asset/Source/Chair/Materials/Chair_DefaultMaterial_AO.tga
-  artifactKey: Guid(d597fe02e19606648acb0ce7e6b1fa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Chair/Materials/Chair_DefaultMaterial_AO.tga using Guid(d597fe02e19606648acb0ce7e6b1fa2a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf26b9f05bf5e98febdfbbd76a0acdd8') in 0.076492 seconds 
-  Import took 0.079864 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/Interior Asset/Source/Chair/Materials/Chair_DefaultMaterial_Normal.tga
-  artifactKey: Guid(115998b97b54c294ab6dbf7b4609d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Chair/Materials/Chair_DefaultMaterial_Normal.tga using Guid(115998b97b54c294ab6dbf7b4609d87e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ef99f2309dcf83c6dfbc914ed9c52e7d') in 0.079845 seconds 
-  Import took 0.083868 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/Tabtale/TTPlugins/CLIK/Editor/ok.png
-  artifactKey: Guid(668a17c366dc049d995bbd0a1b2ad294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/CLIK/Editor/ok.png using Guid(668a17c366dc049d995bbd0a1b2ad294) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68dbb876ef50e197289c1fab6d1c2250') in 0.014080 seconds 
-  Import took 0.018033 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000290 seconds.
-  path: Assets/Particle Effects/Confetti FX/Textures/confetti4x4.png
-  artifactKey: Guid(75b5de378686eb749bfca4c52985999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Particle Effects/Confetti FX/Textures/confetti4x4.png using Guid(75b5de378686eb749bfca4c52985999b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '075375a4913f17e0fc238f6842efd2be') in 0.033969 seconds 
-  Import took 0.037590 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesCN.png
-  artifactKey: Guid(3e17d2ea21c935f418276056f78af7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesCN.png using Guid(3e17d2ea21c935f418276056f78af7e2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '57c4ea98cda8ad73afa415e55c1c68f7') in 0.021928 seconds 
-  Import took 0.025317 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000249 seconds.
-  path: Assets/Interior Asset/Source/Shelf/Materials/Shelf_DefaultMaterial_Normal.tga
-  artifactKey: Guid(a0e22b2022f372d43abb76c2f028e859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Shelf/Materials/Shelf_DefaultMaterial_Normal.tga using Guid(a0e22b2022f372d43abb76c2f028e859) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '36011f396be52358523033bbc5edfcc8') in 0.084801 seconds 
-  Import took 0.088409 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000292 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/mailbox.png
-  artifactKey: Guid(2eb77b7bcd384a24e894ef83581978b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/mailbox.png using Guid(2eb77b7bcd384a24e894ef83581978b1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9d56f2b06e440fa66201c980f030f98c') in 0.010778 seconds 
-  Import took 0.014343 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Tabtale/TTPlugins/Interstitials/Resources/Prefabs/interstitial.jpg
-  artifactKey: Guid(6850cdbf3bb944c1bb12214999c521a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/Interstitials/Resources/Prefabs/interstitial.jpg using Guid(6850cdbf3bb944c1bb12214999c521a5) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '88024d5d49f4bf4b7da6860dfc96f583') in 0.017524 seconds 
-  Import took 0.020743 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000226 seconds.
-  path: Assets/polyperfect/Low Poly Animated People/- Textures/Gizmos/ico-wander.png
-  artifactKey: Guid(0779b80f1c4404e2e946a4e0d7773836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated People/- Textures/Gizmos/ico-wander.png using Guid(0779b80f1c4404e2e946a4e0d7773836) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '529244e7513eab7a9e8721a83f577dce') in 0.012815 seconds 
-  Import took 0.015672 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000227 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesAN.png
-  artifactKey: Guid(99b228cf872ff00479129fc51748468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesAN.png using Guid(99b228cf872ff00479129fc51748468b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '9c02c85a929a72d552657a630ac3c100') in 0.014075 seconds 
-  Import took 0.016896 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000221 seconds.
-  path: Assets/Interior Asset/Source/InteriorPlant/Pot/Materials/Pot_DefaultMaterial_Normal.tga
-  artifactKey: Guid(dd291c9ccd2a96147b82434035fbdcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/InteriorPlant/Pot/Materials/Pot_DefaultMaterial_Normal.tga using Guid(dd291c9ccd2a96147b82434035fbdcf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '461cd5a515e5c2c6a5d08ab17f7eb91a') in 0.077209 seconds 
-  Import took 0.080515 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000316 seconds.
-  path: Assets/Interior Asset/Source/Pillows/2/Materials/Pillow2_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(619884ec2ec894144894fdc007b92ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pillows/2/Materials/Pillow2_DefaultMaterial_MetallicSmoothness.tga using Guid(619884ec2ec894144894fdc007b92ee9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4beb28569dd5b569fd4137ca10aeb191') in 0.091770 seconds 
-  Import took 0.094837 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000351 seconds.
-  path: Assets/Low Poly Police Car Pack/Components/Textures/Police Car Texture 2.png
-  artifactKey: Guid(ca7d9f103941b634a9be3bc7f2a97f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Police Car Pack/Components/Textures/Police Car Texture 2.png using Guid(ca7d9f103941b634a9be3bc7f2a97f82) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50dacb2bc8629eb621b95f6b5790633e') in 0.027160 seconds 
-  Import took 0.029715 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000231 seconds.
-  path: Assets/Interior Asset/Source/Shelf/Materials/Shelf_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(a2705df92d4663545a4ed5809619c665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Shelf/Materials/Shelf_DefaultMaterial_AlbedoTransparency.tga using Guid(a2705df92d4663545a4ed5809619c665) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '51bf124651316b31e9bd6f3869fc2f70') in 0.084837 seconds 
-  Import took 0.088052 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/Tabtale/TTPlugins/RewardedAds/Resources/Prefabs/rewardedAd.jpg
-  artifactKey: Guid(5a6eb43ed59924014897ffd06cb0240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/RewardedAds/Resources/Prefabs/rewardedAd.jpg using Guid(5a6eb43ed59924014897ffd06cb0240a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '2359bc983def6d755ee80142c0d4dfa5') in 0.019481 seconds 
-  Import took 0.023968 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/polyperfect/- Scripts/Resources/ManagerLogo.png
-  artifactKey: Guid(17808c51b4cc01d48b0e89014ce92bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/- Scripts/Resources/ManagerLogo.png using Guid(17808c51b4cc01d48b0e89014ce92bab) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '25b2b75df4909c5b1637bf15a5f8f05c') in 0.009925 seconds 
-  Import took 0.013291 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000280 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesBN.png
-  artifactKey: Guid(611bf06fa2af4ca4f9287a5d370b6dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesBN.png using Guid(611bf06fa2af4ca4f9287a5d370b6dfb) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1ea5b32e3ff0076b184f87ec3965650d') in 0.014254 seconds 
-  Import took 0.017808 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000305 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesC01.png
-  artifactKey: Guid(c6a6d76c01e02c246aa841a167ba1d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesC01.png using Guid(c6a6d76c01e02c246aa841a167ba1d4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '54fbd8fd07119587f7f88cbe42b55fc1') in 0.017845 seconds 
-  Import took 0.021294 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000271 seconds.
-  path: Assets/Interior Asset/Source/Pillows/1/Materials/Pillow1_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(7ccdf93340f679944ad2bfacdd70be8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pillows/1/Materials/Pillow1_DefaultMaterial_MetallicSmoothness.tga using Guid(7ccdf93340f679944ad2bfacdd70be8e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '12ac71b734aba4eff01a2c673498b950') in 0.097337 seconds 
-  Import took 0.101069 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000309 seconds.
-  path: Assets/Low Poly Police Car Pack/Components/Textures/Props Texture.png
-  artifactKey: Guid(e95bad8dca512fe48a4821bff7ed9add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Police Car Pack/Components/Textures/Props Texture.png using Guid(e95bad8dca512fe48a4821bff7ed9add) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '77b5f2a7e1e4a5c8db8a8f22ecfa9228') in 0.008481 seconds 
-  Import took 0.011265 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000279 seconds.
-  path: Assets/Interior Asset/Source/Shelf1/Materials/Shelf1_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(88bd39fdca1da8c449c9c20d1a74de5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Shelf1/Materials/Shelf1_DefaultMaterial_AlbedoTransparency.tga using Guid(88bd39fdca1da8c449c9c20d1a74de5b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '6343fc26b7fca46bbbade411a8336351') in 0.077884 seconds 
-  Import took 0.081653 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000241 seconds.
-  path: Assets/polyperfect/Low Poly Animated People/- Textures/Gizmos/ico-awareness.png
-  artifactKey: Guid(687e8784e75910c4d886b202242785a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated People/- Textures/Gizmos/ico-awareness.png using Guid(687e8784e75910c4d886b202242785a3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4e1ce701e1aad104708a3a78dfad59') in 0.012307 seconds 
-  Import took 0.016737 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000324 seconds.
-  path: Assets/Interior Asset/Source/Pillows/2/Materials/Pillow2_DefaultMaterial_Normal.tga
-  artifactKey: Guid(f9f4aebe412d7534b939e96b1d8bc445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pillows/2/Materials/Pillow2_DefaultMaterial_Normal.tga using Guid(f9f4aebe412d7534b939e96b1d8bc445) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '962cd01ccdfa0a506ba4d41d0221862e') in 0.087101 seconds 
-  Import took 0.090635 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000244 seconds.
-  path: Assets/Interior Asset/Source/Chair/PillowChair/Materials/PillowChair_DefaultMaterial_AlbedoTransparency.tga
-  artifactKey: Guid(7c635ace64277344b96b5935644a0e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Chair/PillowChair/Materials/PillowChair_DefaultMaterial_AlbedoTransparency.tga using Guid(7c635ace64277344b96b5935644a0e38) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e18b86b42256aeeda63c5f5bd000ed1') in 0.086163 seconds 
-  Import took 0.089554 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000269 seconds.
-  path: Assets/Interior Asset/Source/InteriorPlant/Pot/Materials/Pot_DefaultMaterial_AO.tga
-  artifactKey: Guid(eb41f17b294f3c34a9e7b1207ee98f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/InteriorPlant/Pot/Materials/Pot_DefaultMaterial_AO.tga using Guid(eb41f17b294f3c34a9e7b1207ee98f72) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '398637e4f13a5a07ea9f1cc6608c5c2a') in 0.082739 seconds 
-  Import took 0.086931 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000420 seconds.
-  path: Assets/Interior Asset/Source/Pictures/2/Materials/picture_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(b4407ffedf854b14e9e5ad4056446251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pictures/2/Materials/picture_DefaultMaterial_MetallicSmoothness.tga using Guid(b4407ffedf854b14e9e5ad4056446251) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '978e788bdd20ef9e8d75cf99719a6539') in 0.103869 seconds 
-  Import took 0.108202 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000260 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesEN.png
-  artifactKey: Guid(4c1bdcd72b1a857409ab82aef963724b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesEN.png using Guid(4c1bdcd72b1a857409ab82aef963724b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'cd37ec01aae8573de0626d3913f82f4d') in 0.013520 seconds 
-  Import took 0.017316 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/polyperfect/Low Poly Animated People/- Textures/color-atlas-emission.png
-  artifactKey: Guid(ec567cac695ac47bf83804b54a028165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated People/- Textures/color-atlas-emission.png using Guid(ec567cac695ac47bf83804b54a028165) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'afa4025cca065eaefe6688487e0afa55') in 0.025490 seconds 
-  Import took 0.029561 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000389 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesB01.png
-  artifactKey: Guid(139789a65caf9e545bd672dd94cdb219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesB01.png using Guid(139789a65caf9e545bd672dd94cdb219) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a839bb7c865494b7e1a88d58f1e504bd') in 0.014639 seconds 
-  Import took 0.018048 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000229 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesD01.png
-  artifactKey: Guid(17ba713844fa43e42b47f6b21098e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesD01.png using Guid(17ba713844fa43e42b47f6b21098e879) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bf962b8c6d6678a0adfa408c827db6f8') in 0.017669 seconds 
-  Import took 0.021315 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000287 seconds.
-  path: Assets/Fonts/No Virus.ttf
-  artifactKey: Guid(cabc08877bd2f2440bdb38ee2fa0f521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Fonts/No Virus.ttf using Guid(cabc08877bd2f2440bdb38ee2fa0f521) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'd1ecc4e5b0f38f79f152b4e6611710ed') in 0.014878 seconds 
-  Import took 0.018471 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000222 seconds.
-  path: Assets/Interior Asset/Source/Shelf1/Materials/Shelf1_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(cbef5092d56477d41995baf26adcdcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Shelf1/Materials/Shelf1_DefaultMaterial_MetallicSmoothness.tga using Guid(cbef5092d56477d41995baf26adcdcc2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c6946b30437083b23ac841b354a05951') in 0.086963 seconds 
-  Import took 0.090242 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000270 seconds.
-  path: Assets/Tabtale/TTPlugins/RateUs/Prefabs/Resources/Fonts/Asap-Regular.ttf
-  artifactKey: Guid(57924277adc164072b5a99311915ebf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Tabtale/TTPlugins/RateUs/Prefabs/Resources/Fonts/Asap-Regular.ttf using Guid(57924277adc164072b5a99311915ebf9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a5f0534f8295e5fb86c217ed026511e5') in 0.012809 seconds 
-  Import took 0.015989 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000265 seconds.
-  path: Assets/Interior Asset/Source/Pictures/1/Materials/picture_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(d91118211a60c624a83493762fe25ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Pictures/1/Materials/picture_DefaultMaterial_MetallicSmoothness.tga using Guid(d91118211a60c624a83493762fe25ece) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '673c8c2c942e56e14bb23e3f5e9f3802') in 0.083851 seconds 
-  Import took 0.087411 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000333 seconds.
-  path: Assets/Interior Asset/Source/Shelf/Materials/Shelf_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(309fe761316153747944c9f7b10a6df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Shelf/Materials/Shelf_DefaultMaterial_MetallicSmoothness.tga using Guid(309fe761316153747944c9f7b10a6df4) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'bcd5a4720b515cd7f56dd465d3e30702') in 0.105961 seconds 
-  Import took 0.109836 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000289 seconds.
-  path: Assets/polyperfect/Low Poly Animated People/- Textures/Gizmos/ico-scent.png
-  artifactKey: Guid(ac5c802efbd0a414c85f903f689ff382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/polyperfect/Low Poly Animated People/- Textures/Gizmos/ico-scent.png using Guid(ac5c802efbd0a414c85f903f689ff382) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '50ac2b927b6066dd4208109f15d779ba') in 0.018297 seconds 
-  Import took 0.022434 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000356 seconds.
-  path: Assets/Interior Asset/Source/Chair/PillowChair/Materials/PillowChair_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(371213a4fd10f9a4383a6eddad48a9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/Chair/PillowChair/Materials/PillowChair_DefaultMaterial_MetallicSmoothness.tga using Guid(371213a4fd10f9a4383a6eddad48a9a1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4a67613cc4673d859c319b0819f10172') in 0.096654 seconds 
-  Import took 0.100192 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000258 seconds.
-  path: Assets/Textures/Kangaroo_diff.jpg
-  artifactKey: Guid(55c0e366535fd1e449f367fa14131a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Textures/Kangaroo_diff.jpg using Guid(55c0e366535fd1e449f367fa14131a66) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '18c3612fc39137736c0eb5e7e1790c1a') in 0.024913 seconds 
-  Import took 0.028043 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000323 seconds.
-  path: Assets/Low Poly Police Car Pack/Components/Textures/Police Car Texture 3.png
-  artifactKey: Guid(4a5c41a4c6e213147882289249d0542e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Low Poly Police Car Pack/Components/Textures/Police Car Texture 3.png using Guid(4a5c41a4c6e213147882289249d0542e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5c110042d2f89bf6da2a9eff4b29e313') in 0.029732 seconds 
-  Import took 0.034560 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000375 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesB02.png
-  artifactKey: Guid(c5fa5515ab7ae7f40a9c6e5c6ced5fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesB02.png using Guid(c5fa5515ab7ae7f40a9c6e5c6ced5fff) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '563d3ff9ceab1571d6ff3c692af2b638') in 0.017813 seconds 
-  Import took 0.021645 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000257 seconds.
-  path: Assets/Interior Asset/Source/InteriorPlant/Pot/Materials/Pot_DefaultMaterial_MetallicSmoothness.tga
-  artifactKey: Guid(96ffee8446a40994d941b9c0ab7fc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Interior Asset/Source/InteriorPlant/Pot/Materials/Pot_DefaultMaterial_MetallicSmoothness.tga using Guid(96ffee8446a40994d941b9c0ab7fc02d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '0505b38da6e113d8c2b8b5d797eb6863') in 0.103770 seconds 
-  Import took 0.107585 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000299 seconds.
-  path: Assets/ToonPeople2.3/scenes/data/textures/brick04.png
-  artifactKey: Guid(323985a524a6607449653f3fc978b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/scenes/data/textures/brick04.png using Guid(323985a524a6607449653f3fc978b967) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '4ffe7d658dafb02200adfdaaca005730') in 0.009944 seconds 
-  Import took 0.013174 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000223 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesDN.png
-  artifactKey: Guid(ae1a6c2f5a9b1ad4abda848fe5a663d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesDN.png using Guid(ae1a6c2f5a9b1ad4abda848fe5a663d3) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '73da4c277832ec4b9e472944ec79cdf6') in 0.013422 seconds 
-  Import took 0.016416 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000358 seconds.
-  path: Assets/POLYGON city pack/Meshes,textures/ways_FBX/dirt.png
-  artifactKey: Guid(d90409e4a3fae7f46bbf0450da252846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/POLYGON city pack/Meshes,textures/ways_FBX/dirt.png using Guid(d90409e4a3fae7f46bbf0450da252846) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '14df3d92ac116a31c3508d48f683a9fe') in 0.007309 seconds 
-  Import took 0.010270 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000272 seconds.
-  path: Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryMiddle.psd
-  artifactKey: Guid(106fc33e3a3dab34f89693e3ed333fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/BOXOPHOBIC/Utils/Resources/Boxophobic - CategoryMiddle.psd using Guid(106fc33e3a3dab34f89693e3ed333fa2) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '68b47f8b36ef034372f6909ee043e8df') in 0.007919 seconds 
-  Import took 0.011562 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000243 seconds.
-  path: Assets/ToonPeople2.3/textures/glassesC02B.png
-  artifactKey: Guid(7fcbccbccb9438f43bacff3586571f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/ToonPeople2.3/textures/glassesC02B.png using Guid(7fcbccbccb9438f43bacff3586571f57) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'a43b75b9940f48d060ce7d8a798e96a0') in 0.015637 seconds 
-  Import took 0.019408 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 113.609692 seconds.
-  path: Assets/Cross_bamboo.prefab
-  artifactKey: Guid(edf03955b692e8745a70798425585f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Cross_bamboo.prefab using Guid(edf03955b692e8745a70798425585f4a) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ea1f1b65415a8f8681a594885fa2a2db') in 0.491690 seconds 
-  Import took 0.496141 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.002941 seconds.
-  path: Assets/Frost 3.mat
-  artifactKey: Guid(2f0f0214b0f52e948b70af1f00258dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Frost 3.mat using Guid(2f0f0214b0f52e948b70af1f00258dc1) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'dd64017d89164f16951fd6353d995744') in 0.185493 seconds 
-  Import took 0.189497 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.003288 seconds.
-  path: Assets/Frost 2.mat
-  artifactKey: Guid(4c5400a8b862b9f41a520d2365461e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Frost 2.mat using Guid(4c5400a8b862b9f41a520d2365461e1e) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '87cd1cd95e3064e3e533487468dcd83c') in 0.011261 seconds 
-  Import took 0.015887 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000327 seconds.
-  path: Assets/Frost 4.mat
-  artifactKey: Guid(952999b9d726630449d6455b2ab3e65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Frost 4.mat using Guid(952999b9d726630449d6455b2ab3e65d) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c9fdc3a7553a3b5ab8cea51ad0c71777') in 0.015331 seconds 
-  Import took 0.019260 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000345 seconds.
-  path: Assets/Frost 5.mat
-  artifactKey: Guid(98e8ddac910da044480a84f3ed83ce22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Frost 5.mat using Guid(98e8ddac910da044480a84f3ed83ce22) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'c1ddda7efd13c002d1f9afe4ddc68438') in 0.011984 seconds 
-  Import took 0.015391 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000255 seconds.
-  path: Assets/Quad.prefab
-  artifactKey: Guid(b44bc59bf33d85b4290aa72f1321b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Quad.prefab using Guid(b44bc59bf33d85b4290aa72f1321b091) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '5e9a23ba063da579c6d60a03aedf1fb6') in 0.016668 seconds 
-  Import took 0.019871 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.001085 seconds.
-  path: Assets/Frost.mat
-  artifactKey: Guid(b7435846a564fc84ab7208ca029dc0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Frost.mat using Guid(b7435846a564fc84ab7208ca029dc0e9) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1341c4b9ef2337b3649891d92ee955a4') in 0.011165 seconds 
-  Import took 0.014528 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 0.000232 seconds.
-  path: Assets/Frost 1.mat
-  artifactKey: Guid(15f5c633dcad7124fb34a092026c324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/Frost 1.mat using Guid(15f5c633dcad7124fb34a092026c324b) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: '1d4118a7ba1a57fd021fcaa8d0683454') in 0.012972 seconds 
-  Import took 0.015493 seconds .
-
-========================================================================
-Received Import Request.
-  Time since last request: 14.020071 seconds.
-  path: Assets/AppIcon.png
-  artifactKey: Guid(e8467c6f3fe6c41a2aa63c627fe3e8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
-Start importing Assets/AppIcon.png using Guid(e8467c6f3fe6c41a2aa63c627fe3e8d7) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'ec433590928396092b6b08e3e701c35b') in 0.013405 seconds 
-  Import took 0.017691 seconds .
+  Time since last request: 547.604614 seconds.
+  path: Assets/Scripts/DeviceButtons.cs
+  artifactKey: Guid(5a737646d3db0f249baecc21ca58e15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)
+Start importing Assets/Scripts/DeviceButtons.cs using Guid(5a737646d3db0f249baecc21ca58e15c) Importer(815301076,1909f56bfc062723c751e8b465ee728b)  -> (artifact id: 'b7eb0e76bf6e1cffaf17e8a337cf6cb5') in 0.005221 seconds 
+  Import took 0.008912 seconds .
 
 ========================================================================
 Received Prepare
-Refreshing native plugins compatible for Editor in 10.14 ms, found 2 plugins.
+Registering precompiled user dll's ...
+Registered in 0.004322 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.01 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-02-01 21:56:09.179 Unity[81551:4769985] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000005d3a30 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.349 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1350ms)
+		BeginReloadAssembly (119ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (53ms)
+		EndReloadAssembly (1157ms)
+			LoadAssemblies (89ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (388ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (50ms)
+			SetupLoadedEditorAssemblies (459ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (6ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (1ms)
+				BeforeProcessingInitializeOnLoad (153ms)
+				ProcessInitializeOnLoadAttributes (292ms)
+				ProcessInitializeOnLoadMethodAttributes (5ms)
+				AfterProcessingInitializeOnLoad (1ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (9ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 224.5 MB.
+System memory in use after: 224.6 MB.
+
+Unloading 68 unused Assets to reduce memory usage. Loaded Objects now: 2330.
+Total: 4.270878 ms (FindLiveObjects: 0.321982 ms CreateObjectMapping: 0.106082 ms MarkObjects: 3.807362 ms  DeleteObjects: 0.034078 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Registering precompiled user dll's ...
+Registered in 0.008902 seconds.
+Begin MonoManager ReloadAssembly
+Native extension for WindowsStandalone target not found
+Native extension for OSXStandalone target not found
+Refreshing native plugins compatible for Editor in 1.43 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+2022-02-01 21:58:21.594 Unity[81551:4769985] NSEventModifierFlagFunction specified to -setKeyEquivalentModifierMask: for item <NSMenuItem: 0x6000005d7f00 Font Asset, ke='Command-F12'>, but is only supported for system-provided menu items; will not be used
+Mono: successfully reloaded assembly
+- Completed reload, in  1.361 seconds
+Domain Reload Profiling:
+	ReloadAssembly (1362ms)
+		BeginReloadAssembly (140ms)
+			ExecutionOrderSort (0ms)
+			DisableScriptedObjects (5ms)
+			BackupInstance (0ms)
+			ReleaseScriptingObjects (0ms)
+			CreateAndSetChildDomain (54ms)
+		EndReloadAssembly (1144ms)
+			LoadAssemblies (100ms)
+			RebuildTransferFunctionScriptingTraits (0ms)
+			SetupTypeCache (373ms)
+			ReleaseScriptCaches (1ms)
+			RebuildScriptCaches (56ms)
+			SetupLoadedEditorAssemblies (438ms)
+				LogAssemblyErrors (0ms)
+				InitializePlatformSupportModulesInManaged (9ms)
+				SetLoadedEditorAssemblies (1ms)
+				RefreshPlugins (2ms)
+				BeforeProcessingInitializeOnLoad (164ms)
+				ProcessInitializeOnLoadAttributes (257ms)
+				ProcessInitializeOnLoadMethodAttributes (4ms)
+				AfterProcessingInitializeOnLoad (2ms)
+				EditorAssembliesLoaded (0ms)
+			ExecutionOrderSort2 (0ms)
+			AwakeInstancesAfterBackupRestoration (15ms)
+Platform modules already initialized, skipping
+Switching build target platform(2) subTarget(0) extendedPlatform(0) -> platform(13) subTarget(537395200) extendedPlatform(0)
+Refreshing native plugins compatible for Editor in 1.02 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 1848 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 225.5 MB.
+System memory in use after: 225.6 MB.
+
+Unloading 67 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 3.539689 ms (FindLiveObjects: 0.247288 ms CreateObjectMapping: 0.072806 ms MarkObjects: 3.189059 ms  DeleteObjects: 0.029551 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:graphics/normal-map-encoding: 01000000000000000000000000000000 -> 02000000000000000000000000000000
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 10.31 ms, found 2 plugins.
 Preloading 0 native plugins for Editor in 0.00 ms.
 Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
-System memory in use before: 227.0 MB.
-System memory in use after: 227.1 MB.
+System memory in use before: 191.7 MB.
+System memory in use after: 191.8 MB.
 
-Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2390.
-Total: 3.988976 ms (FindLiveObjects: 0.284999 ms CreateObjectMapping: 0.067311 ms MarkObjects: 3.607370 ms  DeleteObjects: 0.028523 ms)
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 4.357845 ms (FindLiveObjects: 0.276982 ms CreateObjectMapping: 0.160839 ms MarkObjects: 3.878645 ms  DeleteObjects: 0.040421 ms)
+
+AssetImportParameters requested are different than current active one (requested -> active):
+  custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
+  custom:container-muxer-webm: aa71ff27fc2769a1b78a27578f13a17b -> 
+  custom:container-demuxer-webm: 4f35f7cbe854078d1ac9338744f61a02 -> 
+  custom:container-demuxer-ogg: 62fdf1f143b41e24485cea50d1cbac27 -> 
+  custom:video-encoder-webm-vp8: eb34c28f22e8b96e1ab97ce403110664 -> 
+  custom:framework-osx-AVFoundation: e770b220cccbd017edd2c1fefb359320 -> 
+  custom:video-decoder-webm-vp8: 9c59270c3fd7afecdb556c50c9e8de78 -> 
+  custom:audio-decoder-ogg-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+  custom:audio-encoder-webm-vorbis: bf7c407c2cedff20999df2af8eb42d56 -> 
+========================================================================
+Received Prepare
+Refreshing native plugins compatible for Editor in 9.65 ms, found 2 plugins.
+Preloading 0 native plugins for Editor in 0.00 ms.
+Unloading 64 Unused Serialized files (Serialized files now loaded: 0)
+System memory in use before: 191.7 MB.
+System memory in use after: 191.8 MB.
+
+Unloading 64 unused Assets to reduce memory usage. Loaded Objects now: 2343.
+Total: 3.518844 ms (FindLiveObjects: 0.191684 ms CreateObjectMapping: 0.065607 ms MarkObjects: 3.235268 ms  DeleteObjects: 0.025332 ms)
 
 AssetImportParameters requested are different than current active one (requested -> active):
   custom:video-decoder-ogg-theora: a1e56fd34408186e4bbccfd4996cb3dc -> 
