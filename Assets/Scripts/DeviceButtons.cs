@@ -118,6 +118,10 @@ public class DeviceButtons : MonoBehaviour
 
     public IEnumerator RespawnNew()
     {
+        yield return new WaitForSeconds(3f);
+        //Instantiate(winParticle, particlePos.position, Quaternion.identity);
+        Instantiate(failParticle, particlePos2.position, Quaternion.Euler(-90, 0, 0));
+
         yield return new WaitForSeconds(10f);
         playerSelection.RandomCharacterSpawn();
         policeman.SetActive(false);
